@@ -4,9 +4,9 @@ date: ""
 author: ""
 site-url: "https://samforeman.me"
 citation:
-   author: Sam Foreman
+   author: Muhammad Muaz
    type: webpage
-   title: "Sam Foreman"
+   title: "Muhammad Muaz"
    url: https://samforeman.me
 format:
   html:
@@ -24,9 +24,9 @@ format:
 
 ::: {style="font-size:1.0em; text-align: center;"}
 
-[![](./assets/avatar.png)]{.profile-avatar style="width: 100%; border: 0px solid var(--bg-border)!important;"}
+[![](./assets/Muaz_Picture.jpg)]{.profile-avatar style="width: 100%; border: 0px solid var(--bg-border)!important;"}
 
-[[👋 Hi, I'm Sam!]{.dim-text style="font-family:var(--font-family-headings);"} [[{{< ai orcid >}}]{.orcid-green style="background: none!important;"}](https://orcid.org/0000-0002-9981-0876)]{style="font-size: 1.5rem; color: var(--dim-text)!important; padding-bottom: 0pt; font-family: 'IBM Plex Sans Condensed'; font-weight: 500;"}
+[[👋 Hi, I'm Muaz!]{.dim-text style="font-family:var(--font-family-headings);"} ]{style="font-size: 1.5rem; color: var(--dim-text)!important; padding-bottom: 0pt; font-family: 'IBM Plex Sans Condensed'; font-weight: 500;"}
 
 ::: {style="display: flex; flex-direction: row; align-items: center; text-align: center!important; justify-content: center; background-color: var(--link-bg-color);"}
 
@@ -49,20 +49,19 @@ format:
 
 ## 🧑🏻‍💻 About Me
 
-- 💻 currently a computational scientist at Argonne National Laboratory
-  [(ALCF)](https://alcf.anl.gov).
+- 💻 currently a computer science graduate student @
+  [(UT Austin)](https://www.cs.utexas.edu/).
 
-- 🧪 generally interested in the application of AI / ML + HPC to computational
-problems in science[^disciplines]
+<!-- - 🧪 generally interested in the application of AI / ML + HPC to computational
+problems in science[^disciplines] -->
 
-- 🚀 usually working on scaling large (language, vision, multi-modal) models
-_across thousands of GPUs_[^students]
+- 🚀 generatly interested in application of AI/ML specifically in domains of Generative AI (Diffusion Models), 3D Vision, & Multi-Modality[^contribution]
 
-[^students]: If this sounds like something you'd be interested in doing, please
-  feel free to [reach out to me](mailto:foremans@anl.gov)!
+[^contribution]: If this sounds like something you'd be interested in doing, please
+  feel free to [reach out to me](mailto:m.muaz@utexas.edu)!
 
-[^disciplines]: So far, for: \{Lattice QCD, Quantum Mechanics, Biology (Protein
-  Generation, Drug Discovery), and Climate Modeling / Weather Forecasting\}
+<!-- [^disciplines]: So far, for: \{Lattice QCD, Quantum Mechanics, Biology (Protein
+  Generation, Drug Discovery), and Climate Modeling / Weather Forecasting\} -->
 
 :::
 
@@ -71,9 +70,9 @@ _across thousands of GPUs_[^students]
 You can get a live view of some of my recent talks [[here {{< iconify line-md external-link >}}](/qmd/slides.qmd)]{.bright-text}
 :::
 
-::: {.callout-tip icon=false aria-title="Now Playing" title='[![](https://api.iconify.design/logos:spotify-icon.svg?color=%23888888) Now Playing:]{style="color:#1ED760;"}' collapse="true" style='width:100%; border: none!important; border-left: 2px solid #1ED760!important; border-radius: 0pt!important; opacity: 100%;'}
+<!-- ::: {.callout-tip icon=false aria-title="Now Playing" title='[![](https://api.iconify.design/logos:spotify-icon.svg?color=%23888888) Now Playing:]{style="color:#1ED760;"}' collapse="true" style='width:100%; border: none!important; border-left: 2px solid #1ED760!important; border-radius: 0pt!important; opacity: 100%;'}
 [![](https://spotify-github-profile.vercel.app/api/view?uid=saforem2&cover_image=true&theme=novatorem&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.vercel.app/api/view?uid=saforem2&redirect=true)
-:::
+::: -->
 :::
 :::
 
@@ -83,41 +82,17 @@ You can get a live view of some of my recent talks [[here {{< iconify line-md ex
 
       [NOTE: Update the **NEW** text below !!]: #
 
-      <!-- I did my undergrad at the University of Illinois at Urbana-Champaign -->
-      <!-- (UIUC^[ILL]), where I got bachelors degrees in Engineering Physics and -->
-      <!-- Applied Mathematics. -->
+      My Ph.D. is currently focused on techniques to optimize the inference complexity of deep generative models such as [SVD](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt-1-1), [Latte](https://github.com/Vchitect/Latte). In 🧍terms, _I try to make these models run faster_.
 
-      <!-- I decided on Physics for grad school (the math GRE was brutal 😂) and attended -->
-      <!-- the University of Iowa planning -->
+      Recently in May 2024, I also completed my Masters 🎓 in Computer Science from [(UT Austin)](https://www.cs.utexas.edu/). 🎉🎉
 
-      My [current research](https://saforem2.github.io/l2hmc-qcd) focuses on
-      using deep generative modeling to help build better sampling algorithms
-      in lattice gauge theory. In particular, I'm interested in building gauge
-      equivariant neural network architectures and using inductive priors to
-      incorporate physical symmetries into machine learning models.
 
-      I received my PhD in Physics from the University of Iowa in 2019 and my thesis
-      was on [Learning Better Physics: A Machine Learning Approach to Lattice Gauge
-      Theory](https://iro.uiowa.edu/esploro/outputs/doctoral/Learning-better-physics-a-machine-learning/9983776792002771).
-
-      Prior to this, I completed two bachelors degrees (Engineering Physics and
-      Applied Mathematics, 2015) at The University of Illinois at
-      Urbana-Champaign. My undergraduate dissertation was titled [Energy
-      Storage in Quantum
-      Resonators](https://aip.scitation.org/doi/10.1063/1.5009698) and was
-      supervised by Professor [Alfred
-      Hübler](https://en.wikipedia.org/wiki/Alfred_H%C3%BCbler) within the
-      Center for Complex Systems Research at UIUC[^patent].
-
-      [^1]: Mostly getting supercomputers to stop yelling at each other {{< fa solid network-wired >}}.
-
-      [^patent]: And resulted in a
-      [patent](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vV_1zDwAAAAJ&pagesize=80&citation_for_view=vV_1zDwAAAAJ:SeFeTyx0c_EC)
+      Prior to this, I completed bachelors degree (Electrical Engineering, 2021) at the Lahore University of Management Sciences [LUMS](https://sbasse.lums.edu.pk/department-of-electrical-engineering). My undegraduate dissertation was titled [Vibration Estimation and Object Localization using RFID Technology in Challenging Environments](https://drive.google.com/file/d/1FQbaxQjkI3L19TNtLYqVuayAJEQYwo8a/view?usp=sharing).
       !!
 
     </details>
 
-  - <details closed><summary>🤔 What I work on</summary>
+  <!-- - <details closed><summary>🤔 What I work on</summary>
 
     As a member of the [AI / ML Group](https://www.alcf.anl.gov/about/people/group/506) at
     [ALCF](https://alcf.anl.gov), I work on:
@@ -146,7 +121,7 @@ You can get a live view of some of my recent talks [[here {{< iconify line-md ex
 
     :::
 
-    </details>
+    </details> -->
 
 </details>
 

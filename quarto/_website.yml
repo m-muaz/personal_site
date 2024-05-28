@@ -1,25 +1,25 @@
 website:
   # sidebar: true
-  title: "Sam Foreman"
+  title: "Muhammad Muaz"
   page-navigation: true
   favicon: "./favicon.svg"
   back-to-top-navigation: true
-  google-analytics: G-XVM2Y822Y1
+  # google-analytics: G-XVM2Y822Y1
   # gtag: G-E72QE53WSY
-  site-url: "https://samforeman.me"
+  site-url: "https://www.cs.utexas.edu/~mmuaz/"
   repo-actions: [source, edit, issue]
   repo-url: https://github.com/saforem2/personal_site
-  description: "Sam Foreman"
-  open-graph:
-    title: "Sam Foreman"
-    description: "My ramblings about science and computers"
-    image: "https://github.com/saforem2/personal_site/blob/main/assets/thumbnail.png?raw=true"
-  twitter-card:
-    site: "@saforem2"
-    creator: "@saforem2"
-    title: "Sam Foreman"
-    description: "My ramblings about science and computers"
-    image: "https://github.com/saforem2/personal_site/blob/main/assets/thumbnail.png?raw=true"
+  description: "Muhammad Muaz"
+  # open-graph:
+  #   title: "Muhammad Muaz"
+  #   description: "My ramblings about science and computers"
+  #   image: "https://github.com/saforem2/personal_site/blob/main/assets/thumbnail.png?raw=true"
+  # twitter-card:
+  #   site: "@saforem2"
+  #   creator: "@saforem2"
+  #   title: "Sam Foreman"
+  #   description: "My ramblings about science and computers"
+  #   image: "https://github.com/saforem2/personal_site/blob/main/assets/thumbnail.png?raw=true"
   navbar:
     search: false
     # title: false
@@ -38,16 +38,16 @@ website:
     left:
       - text: "🪧 Posts"
         menu:
-          - text: "📬 All Posts"
-            href: "./qmd/posts.qmd"
-          - text: "📸 <code>flash-attn</code> on Sunspot"
-            href: "./qmd/flash-attn-sunspot/index.qmd"
+          # - text: "📬 All Posts"
+          #   href: "./qmd/posts.qmd"
+          # - text: "📸 <code>flash-attn</code> on Sunspot"
+          #   href: "./qmd/flash-attn-sunspot/index.qmd"
           - text: "💅 How to Make Dope Slides"
             href: qmd/dope-slides/index.qmd
-          - text: "🍋 Distributed Training with `ezpz`"
-            href: qmd/ezpz/ezpz.qmd
-          - text: "🚂 Loooooooong Sequence Lengths"
-            href: qmd/dsblog.qmd
+          # - text: "🍋 Distributed Training with `ezpz`"
+          #   href: qmd/ezpz/ezpz.qmd
+          # - text: "🚂 Loooooooong Sequence Lengths"
+          #   href: qmd/dsblog.qmd
           - text: "🏎️ `Megatron-DeepSpeed` + Intel XPU"
             href: qmd/aurora-gpt/megatron-ds-intel.qmd
         # menu:
