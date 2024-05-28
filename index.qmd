@@ -20,7 +20,7 @@ format:
 #    freeze: true
 ---
 
-<!-- ## Sam Foreman -->
+<!-- ## Muhammad Muaz -->
 
 ::: {style="font-size:1.0em; text-align: center;"}
 
@@ -47,7 +47,7 @@ format:
 
 ::: {style="border: 1px solid red;"}
 
-## 🧑🏻‍💻 About Me
+## 🧑🏻‍💻 About Me[^inspiration]
 
 - 💻 currently a computer science graduate student @
   [(UT Austin)](https://www.cs.utexas.edu/).
@@ -59,6 +59,7 @@ problems in science[^disciplines] -->
 
 [^contribution]: If this sounds like something you'd be interested in doing, please
   feel free to [reach out to me](mailto:m.muaz@utexas.edu)!
+[^inspiration]: Website inspiration and code base forked from [Sam Foreman's Personal Website](https://github.com/saforem2/personal_site). Huge thanks to Sam 🐐!
 
 <!-- [^disciplines]: So far, for: \{Lattice QCD, Quantum Mechanics, Biology (Protein
   Generation, Drug Discovery), and Climate Modeling / Weather Forecasting\} -->
@@ -129,7 +130,17 @@ You can get a live view of some of my recent talks [[here {{< iconify line-md ex
 
 ### 📝 Work
 
-**NOTE**: [You can find a full list of my publications on my [Google Scholar](https://scholar.google.com/citations?user=vV_1zDwAAAAJ&hl=en)]{.dim-text}
+- [Conditioning Diffusion Models with 3D Human Shape](https://drive.google.com/file/d/1TTZSs92oO6KJD_tEJTvlWkUM3vnozNhF/view?usp=sharing)\
+    [Learning for 3D Humans Course Project, _2024_]{.dim-text}
+
+- [Comparative Analysis of Multi-Modal Large Language Models (LLM)](https://atosystem.github.io/VisualTextPioneer/blog/2022/visual-text-poineer) \
+    [Topics in Natural Language Processing, _2023_]{.dim-text}
+
+- [Bridging Modalities: Knowledge Distillation and Masked Training for Translating Multi-Modal Emotion Recognition to Uni-Modal, Speech-Only Emotion Recognition](https://arxiv.org/abs/2401.03000)\
+    [**Muaz, M.** et al., \[[_arXiv:2401.03000_](https://arxiv.org/abs/2401.03000)\]]{.dim-text}
+
+
+<!-- **NOTE**: [You can find a full list of my publications on my [Google Scholar](https://scholar.google.com/citations?user=vV_1zDwAAAAJ&hl=en)]{.dim-text}
 
 - [Intro to HPC Bootcamp: Engaging New Communities Through Energy Justice Projects](https://jocse.org/downloads/jocse-15-1-10.pdf)  
     [Journal of Computational Science, _2024_]{.dim-text}
@@ -158,7 +169,7 @@ You can get a live view of some of my recent talks [[here {{< iconify line-md ex
 
 <!-- SARS-CoV-2 evolutionary dynamics -->
 
-- 🏆 [**GenSLMs: Genome-scale language models reveal** \[...\]](https://www.biorxiv.org/content/10.1101/2022.10.10.511571v1.abstract)  
+<!-- - 🏆 [**GenSLMs: Genome-scale language models reveal** \[...\]](https://www.biorxiv.org/content/10.1101/2022.10.10.511571v1.abstract)  
     [@ SC'22 _10/2022_]{.dim-text}
 
   - 🥇 [ACM Gordon Bell Special Prize](https://www.acm.org/media-center/2022/november/gordon-bell-special-prize-covid-research-2022)
@@ -188,9 +199,9 @@ You can get a live view of some of my recent talks [[here {{< iconify line-md ex
     [**S. Foreman** et al., [_arXiv:1710.02079_](https://www.arxiv.or/abs/1710.02079), _2017_]{.dim-text}
 
 - [Large Energy Density in Three-Plate Nanocapacitors due to Coulomb Blockade](https://doi.org/10.1063/1.5009698)  
-    [**S. Foreman** et al., _J. Appl. Phys_, _2018_]{.dim-text}
+    [**S. Foreman** et al., _J. Appl. Phys_, _2018_]{.dim-text} --> 
 
-### 🦜 Talks
+<!-- ### 🦜 Talks
 
 ::: {style="font-size:0.8em;"}
 
@@ -224,7 +235,7 @@ You can get a live view of some of my recent talks [[here {{< iconify line-md ex
     style="border-radius:0.25rem;border:none;align:center;">
     <p>Your browser does not support iframes.</p>
   </iframe>
-  </details>
+  </details> -->
 
 <!-- - <details closed> -->
 <!--   <summary> -->
@@ -234,7 +245,7 @@ You can get a live view of some of my recent talks [[here {{< iconify line-md ex
 <!--     <p>Your browser does not support iframes.</p> -->
 <!--   </iframe> -->
 <!--   </details> -->
-- <details closed>
+<!-- - <details closed>
   <summary>
     <a href="https://github.com/saforem2/LLM-tutorial">🪧 <strong>Creating Small(-ish) LLMs</strong></a> @ <a href="https://github.com/brettin/llm_tutorial"><em>LLM Tutorial Workshop (1)</em></a>, (<code>11/2023</code>)
   </summary>
@@ -392,44 +403,35 @@ You can get a live view of some of my recent talks [[here {{< iconify line-md ex
 
 - **Machine Learning Analysis of Ising Worms** @ _Brookhaven National Laboratory_, (`2017`)
 
-:::
+::: -->
 
 ### 📦 Projects
 
 ::: {.flex-container style="margin-top: 1em;"}
 ::: {.flex-container}
-[{{< fa brands github >}} `ezpz` 🍋](https://github.com/saforem2/ezpz) \[[web](https://saforem2.github.io/ezpz)\]
-: Distributed training, `ezpz`
+[{{< fa brands github >}} `generative-models` 🤖](https://github.com/m-muaz/generative-models)
+: Diffusion Models, `generative-models`
 
 
-[{{< fa brands github >}} `Megatron-DeepSpeed` 🤖](https://github.com/argonne-lcf/Megatron-DeepSpeed)
-: For the _largest_ of large language models.
+
+[{{< fa brands github >}} `OpenSTL` 🎞️](https://github.com/m-muaz/OpenSTL) 
+: Spatio-Temporal Learning + Prediction
 
 
-[{{< fa brands github >}} `wordplay` 🎮💬](https://github.com/saforem2/wordplay) \[[web](https://saforem2.github.io/wordplay)\]
-: [[`nanoGPT`](https://github.com/saforem2/nanoGPT)][^ezpz]+`{🤗`[`datasets`](https://huggingface.co/datasets),[`DeepSpeed`](https://github.com/microsoft/DeepSpeed)`}`
-
-
-[{{< fa brands github >}} `ai-science-training-series` 👨🏻‍🏫](https://github.com/argonne-lcf/ai-science-training-series) \[[web](https://www.alcf.anl.gov/alcf-ai-science-training-series)\]
-: Lecture series, "AI-4-Science-on-Supercomputers"
+[{{< fa brands github >}} `Cogmen_SLT` 🔊](https://github.com/m-muaz/Cogmen_SLT) \[[web](https://arxiv.org/abs/2401.03000)\]
+: `Emotion Recognition`, Multimodal -> Speech only
 
 :::
 
 ::: {.flex-container}
-[{{< fa brands github >}} `enrich` 💸](https://github.com/saforem2/enrich) \[[web](https://saforem2.github.io/enrich)\]
-: Python's `logging`, with [Rich](https://github.com/Textualize/rich)
+[{{< fa brands github >}} `tomesd` 🗜️](https://github.com/m-muaz/tomesd)
+: Token Merging & Optimization for diffusion model/s speedup
 
 
-[{{< fa brands github >}} `ambivalent` 🤷🏻‍♂️ ](https://github.com/saforem2/ambivalent) \[[web](https://saforem2.github.io/ambivalent)\]
-: Clean, simple style for Matplotlib figures[^opinionated].
+[{{< fa brands github >}} `diffusers` 🧨 ](https://github.com/m-muaz/diffusers)
+: Fork of _[diffusers](https://github.com/huggingface/diffusers)_ library
 
 
-[{{< fa brands github >}} `l2hmc-qcd` 🔲](https://github.com/saforem2/l2hmc-qcd) \[[web](https://saforem2.github.io/l2hmc-qcd)\]
-: Accelerated samplers for Lattice QCD
-
-
-[{{< fa brands github >}} `climate-analysis` 🌍](https://github.com/saforem2/climate-analysis) \[[web](https://saforem2.github.io/climate-analysis)\]
-: Climate Analysis project using ClimRR data
 :::
 :::
 
@@ -442,36 +444,40 @@ You can get a live view of some of my recent talks [[here {{< iconify line-md ex
 #### [{{< fa brands github-alt >}}]{.yellow-text} GitHub Stats
 
 
-::: {.callout-tip icon="false" collapse="false" style='width:100%; background-color: rgba(28, 28, 28, 0.0)!important; border-color: var(--bg-border)!important;' title='[{{< fa brands github >}}]{.yellow-text} [GitHub Stats]{.dim-text} [([`saforem2`](https://github.com/saforem2)):]{.dim-text}'}
+::: {.callout-tip icon="false" collapse="false" style='width:100%; background-color: rgba(28, 28, 28, 0.0)!important; border-color: var(--bg-border)!important;' title='[{{< fa brands github >}}]{.yellow-text} [GitHub Stats]{.dim-text} [([`m-muaz`](https://github.com/m-muaz)):]{.dim-text}'}
 
 
 :::: {.columns style="display: flex; flex-direction: row; align-items: center; text-align:left;"}
 
-::: {.column style="text-align: left;"}
+::: {.column style="text-align: center;"}
 
-[![](https://github-readme-stats.vercel.app/api?username=saforem2&theme=transparent&text_color=838383&hide_border=true\&rank_icon=percentile)](https://github.com/saforem2)
-
-:::
-
-::: {.column style="text-align:left;"}
-
-[![](https://github-readme-stats.vercel.app/api/wakatime?username=saforem2&hide_border=true&layout=compact&theme=transparent&text_color=838383)](https://github.com/saforem2/)
+[![](https://github-readme-stats.vercel.app/api?username=m-muaz&hide=prs&theme=transparent&text_color=838383&hide_border=true&rank_icon=github)](https://github.com/m-muaz)
 
 :::
+
+<!-- ::: {.column style="text-align:left;"}
+
+
+[![](https://github-readme-stats.vercel.app/api/wakatime?username=m-muaz&hide_border=true&layout=compact&theme=transparent&text_color=838383)](https://github.com/m-muaz/)
+
+::: -->
 
 ::::
 
 ::: {.img-container style="text-align:center; display: flex; margin-left: auto; margin-right: auto;"}
 
-[![](https://github-readme-stats.vercel.app/api/pin/?username=saforem2&repo=l2hmc-qcd&theme=transparent&include_all_commits=true&hide_border=true&text_color=838383&title_color=838383)](https://github.com/saforem2/l2hmc-qcd)
-[![](https://github-readme-stats.vercel.app/api/pin/?username=saforem2&repo=lattice23&theme=transparent&show_icons=true&include_all_commits=true&hide_border=true&text_color=838383&title_color=838383)](https://github.com/saforem2/lattice23)
-[![](https://github-readme-stats.vercel.app/api/pin/?username=saforem2&repo=lqcd-pasc23&theme=transparent&show_icons=true&include_all_commits=true&hide_border=true&text_color=838383&title_color=838383)](https://github.com/saforem2/lqcd-pasc23)
-[![](https://github-readme-stats.vercel.app/api/pin/?username=nftqcd&repo=fthmc&theme=transparent&show_icons=true&include_all_commits=true&hide_border=true&text_color=838383&title_color=838383)](https://github.com/nftqcd/fthmc)
+[![](https://github-readme-stats.vercel.app/api/pin/?username=m-muaz&repo=generative-models&theme=transparent&show_icons=true&show_owner=true&include_all_commits=true&hide_border=true&text_color=838383&title_color=838383)](https://github.com/m-muaz/generative-models)
+[![](https://github-readme-stats.vercel.app/api/pin/?username=m-muaz&repo=Cogmen_SLT&theme=transparent&show_icons=true&include_all_commits=true&hide_border=true&icon_color=838383&title_color=838383)](https://github.com/m-muaz/Cogmen_SLT)
+[![](https://github-readme-stats.vercel.app/api/pin/?username=m-muaz&repo=sd-scripts&theme=transparent&show_icons=true&include_all_commits=true&hide_border=true&text_color=838383&title_color=838383)](https://github.com/m-muaz/sd-scripts)
+[![](https://github-readme-stats.vercel.app/api/pin/?username=m-muaz&repo=OpenSTL&theme=transparent&show_icons=true&include_all_commits=true&hide_border=true&text_color=838383&title_color=838383)](https://github.com/m-muaz/OpenSTL)
+[![](https://github-readme-stats.vercel.app/api/pin/?username=m-muaz&repo=diffusers&theme=transparent&show_icons=true&include_all_commits=true&hide_border=true&text_color=838383&title_color=838383)](https://github.com/m-muaz/diffusers)
+[![](https://github-readme-stats.vercel.app/api/pin/?username=m-muaz&repo=nvim-config&theme=transparent&show_icons=true&include_all_commits=true&hide_border=true&text_color=838383&title_color=838383)](https://github.com/m-muaz/nvim-config)
+<!-- [![](https://github-readme-stats.vercel.app/api/pin/?username=nftqcd&repo=fthmc&theme=transparent&show_icons=true&include_all_commits=true&hide_border=true&text_color=838383&title_color=838383)](https://github.com/nftqcd/fthmc)
 [![](https://github-readme-stats.vercel.app/api/pin/?username=argonne-lcf&repo=CompPerfWorkshop&theme=transparent&show_icons=true&include_all_commits=true&hide_border=true&text_color=838383)](https://github.com/argonne-lcf/CompPerfWorkshop)
-[![](https://github-readme-stats.vercel.app/api/pin/?username=argonne-lcf&repo=ai-science-training-series&theme=transparent&show_icons=true&include_all_commits=true&hide_border=true&text_color=838383&title_color=838383)](https://github.com/argonne-lcf/ai-science-training-series)
-[![](https://github-readme-stats.vercel.app/api/pin/?username=argonne-lcf&repo=mlprof&theme=transparent&show_icons=true&include_all_commits=true&hide_border=true&text_color=838383&title_color=838383)](https://github.com/argonne-lcf/mlprof)
-[![](https://github-readme-stats.vercel.app/api/pin/?username=argonne-lcf&repo=user-guides&theme=transparent&show_icons=true&include_all_commits=true&hide_border=true&text_color=838383&title_color=838383)](https://github.com/argonne-lcf/user-guides)
-[![](https://github-readme-stats.vercel.app/api/pin/?username=saforem2&repo=personal_site&theme=transparent&show_icons=true&include_all_commits=true&hide_border=true&icon_color=838383&title_color=838383)](https://github.com/saforem2/personal_site)
+[![](https://github-readme-stats.vercel.app/api/pin/?username=argonne-lcf&repo=ai-science-training-series&theme=transparent&show_icons=true&include_all_commits=true&hide_border=true&text_color=838383&title_color=838383)](https://github.com/argonne-lcf/ai-science-training-series) -->
+<!-- [![](https://github-readme-stats.vercel.app/api/pin/?username=argonne-lcf&repo=mlprof&theme=transparent&show_icons=true&include_all_commits=true&hide_border=true&text_color=838383&title_color=838383)](https://github.com/argonne-lcf/mlprof)
+[![](https://github-readme-stats.vercel.app/api/pin/?username=argonne-lcf&repo=user-guides&theme=transparent&show_icons=true&include_all_commits=true&hide_border=true&text_color=838383&title_color=838383)](https://github.com/argonne-lcf/user-guides) -->
+
 
 <!-- [![github](https://github-readme-stats.vercel.app/api/pin/?username=saforem2&repo=l2hmc-qcd&theme=transparent&include_all_commits=true&hide_border=true&icon_color=#00CCFF&title_color=#00CCFF&bg_color=#1c1c1c)](https://github.com/saforem2/l2hmc-qcd) -->
 <!-- <a href="https://github.com/saforem2/lattice23"><img src="https://github-readme-stats.vercel.app/api/pin/?username=saforem2&repo=lattice23&theme=transparent&show_icons=true&include_all_commits=true&hide_border=true&icon_color=#00CCFF&title_color=#00CCFF&bg_color=#1c1c1c" /></a> -->
@@ -486,17 +492,17 @@ You can get a live view of some of my recent talks [[here {{< iconify line-md ex
 
 
 
-::: {.callout-tip icon="false" collapse="false" style="width:100%; background-color: rgba(28, 28, 28, 0.0); border-color: var(--bg-border)!important;" title="[`l2hmc-qcd`](https://saforem2.github.io/l2hmc-qcd)"}
+<!-- ::: {.callout-tip icon="false" collapse="false" style="width:100%; background-color: rgba(28, 28, 28, 0.0); border-color: var(--bg-border)!important;" title="[`l2hmc-qcd`](https://saforem2.github.io/l2hmc-qcd)"}
 
 ::: {style="text-align:center;"}
 
 [![](https://raw.githubusercontent.com/saforem2/l2hmc-qcd/main/assets/logo-small.svg)](https://saforem2.github.io/l2hmc-qcd)  
-[{{< fa brands github >}} GitHub repo](https://github.com/saforem2/l2hmc-qcd)
+[{{< fa brands github >}} GitHub repo](https://github.com/saforem2/l2hmc-qcd) -->
 
 <!-- <a href="https://github.com/saforem2/l2hmc-qcd"><img src="https://github-readme-stats.vercel.app/api/pin/?username=saforem2&repo=l2hmc-qcd&theme=transparent&include_all_commits=true&hide_border=true&icon_color=#00CCFF&title_color=#00CCFF&bg_color=#1c1c1c" /></a> -->
 <!-- ![l2hmc-qcd](https://github.com/saforem2/saforem2/blob/main/assets/l2hmc-qcd-small.svg) -->
 
-<a href="https://hits.seeyoufarm.com"><img alt="hits" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsaforem2%2Fl2hmc-qcd&count_bg=%2300CCFF&title_bg=%23555555&icon=&icon_color=%23111111&title=👋&edge_flat=false"></a>    
+<!-- <a href="https://hits.seeyoufarm.com"><img alt="hits" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsaforem2%2Fl2hmc-qcd&count_bg=%2300CCFF&title_bg=%23555555&icon=&icon_color=%23111111&title=👋&edge_flat=false"></a>    
 <a href="https://github.com/saforem2/l2hmc-qcd/"><img alt="l2hmc-qcd" src="https://img.shields.io/badge/-l2hmc--qcd-252525?style=flat&logo=github&labelColor=gray"></a> <a href="https://www.codefactor.io/repository/github/saforem2/l2hmc-qcd"><img alt="codefactor" src="https://www.codefactor.io/repository/github/saforem2/l2hmc-qcd/badge"></a>
 <br>
 <a href="https://arxiv.org/abs/2112.01582"><img alt="arxiv" src="https://img.shields.io/badge/arXiv-2112.01582-B31B1B.svg"></a> <a href="https://arxiv.org/abs/2105.03418"><img alt="arxiv" src="https://img.shields.io/badge/arXiv-2105.03418-B31B1B.svg"></a> 
@@ -507,11 +513,11 @@ You can get a live view of some of my recent talks [[here {{< iconify line-md ex
 
 :::
 
-:::
+::: -->
 
 :::
 
-### 🎪 Events
+<!-- ### 🎪 Events
 
 - Organizer for:
 
@@ -519,7 +525,7 @@ You can get a live view of some of my recent talks [[here {{< iconify line-md ex
 
   - [SC23 Workshop: High Performance Python for Science at Scale (HPPSS)](https://hppss.github.io/SC23/), November 2023
 
-  - [Machine Learning and Quantum Computing for Earth Sciences](https://17.usnccm.org/702) at 17th U. S. National Congress on Computational Mechanics, July 2023
+  - [Machine Learning and Quantum Computing for Earth Sciences](https://17.usnccm.org/702) at 17th U. S. National Congress on Computational Mechanics, July 2023 -->
 
 ### 🪖 Experience
 
