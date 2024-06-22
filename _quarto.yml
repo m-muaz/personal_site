@@ -12,7 +12,7 @@ bibliography: references.bib
 # appendix-cite-as: display
 favicon: "favicon.svg"
 # twitter-card: true
-site-url: "https://samforeman.me"
+site-url: "https://cs.utexas.edu/~mmuaz"
 google-scholar: true
 citeproc: true
 # filters:
@@ -20,9 +20,10 @@ citeproc: true
 # lightbox: auto
 project:
   render:
-    - '**/**/*.qmd'
+    # - '**/**/*.qmd'
     - index.qmd
-    - qmd/**/*.qmd
+    - qmd/drop-*/*.qmd
+    - qmd/megatron*/*.qmd
     # - qmd/blog/*.qmd
     # - qmd/ezpz/*.qmd
     # - qmd/aurora-gpt/megatron-ds-intel.qmd
@@ -31,16 +32,16 @@ project:
   preview:
     port: 4209
 author:
-  name: "Sam Foreman [[{{< ai orcid >}}]{.orcid-green}](https://orcid.org/0000-0002-9981-0876)"
-  url: https://samforeman.me
-  email: foremans@anl.gov
+  name: "Muhammad Muaz"
+  url: https://cs.utexas.edu/~mmuaz
+  email: m.muaz@utexas.edu
   # affiliation: Argonne National Laboratory
   # affiliation-url: https://alcf.anl.gov/about/people/sam-foreman
 citation:
-   author: Sam Foreman
+   author: Muhammad Muaz
    type: webpage
    title: "Personal Website"
-   url: https://samforeman.me
+   url: https://cs.utexas.edu/~mmuaz
 execute:
   # keep-ipynb: true
   # keep-md: true

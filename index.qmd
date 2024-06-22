@@ -2,12 +2,12 @@
 date: ""
 # date-modified: "today"
 author: ""
-site-url: "https://samforeman.me"
+site-url: "https://cs.utexas.edu/~mmuaz/"
 citation:
    author: Muhammad Muaz
    type: webpage
    title: "Muhammad Muaz"
-   url: https://samforeman.me
+   url: https://cs.utexas.edu/~mmuaz/
 format:
   html:
     css:
@@ -30,14 +30,14 @@ format:
 
 ::: {style="display: flex; flex-direction: row; align-items: center; text-align: center!important; justify-content: center; background-color: var(--link-bg-color);"}
 
-[[[{{< iconify ph house-line-duotone >}}]{.icon style="background-color:rgba(0,0,0,0.0);!important"}](https://samforeman.me)]{.icon style="font-size:1.5rem; padding-right: 0pt;"}
-[[{{< iconify ph github-logo-duotone >}}](https://github.com/saforem2)]{.icon style="font-size:1.5rem; padding-left: 0pt; padding-right: 0pt"}
-[[{{< iconify ph twitter-logo-duotone >}}](https://www.twitter.com/saforem2)]{.icon style="font-size:1.5rem; padding-left: 0pt; padding-right: 0pt"}
-[[{{< iconify ph envelope-open-duotone >}}](mailto:///foremans@anl.gov)]{.icon style="font-size:1.5rem; padding-left: 0pt; padding-right: 0pt"}
-[[{{< iconify ph graduation-cap-duotone >}}](https://scholar.google.com/citations?user=vV_1zDwAAAAJ&hl=en)]{.icon style="font-size:1.5rem; padding-left: 0pt; padding-right: 0pt"}
-[[{{< iconify ph spotify-logo-duotone >}}](https://open.spotify.com/user/saforem2)]{.icon style="font-size:1.5rem; padding-left: 0pt; padding-right: 0pt"}
-[[{{< iconify ph lastfm-logo-duotone >}}](https://www.last.fm/user/saforem2)]{.icon style="font-size:1.5rem; padding-left: 0pt; padding-right: 0pt"}
-[[{{< iconify ph linkedin-logo-duotone >}}](https://linkedin.com/in/saforem2)]{.icon style="font-size:1.5rem; padding-left: 0pt; padding-right: 0pt"}
+[[[{{< iconify ph house-line-duotone >}}]{.icon style="background-color:rgba(0,0,0,0.0);!important"}](https://cs.utexas.edu/~mmuaz)]{.icon style="font-size:1.5rem; padding-right: 0pt;"}
+[[{{< iconify ph github-logo-duotone >}}](https://github.com/m-muaz)]{.icon style="font-size:1.5rem; padding-left: 0pt; padding-right: 0pt"}
+[[{{< iconify ph twitter-logo-duotone >}}](https://x.com/its_muazizzm)]{.icon style="font-size:1.5rem; padding-left: 0pt; padding-right: 0pt"}
+[[{{< iconify ph envelope-open-duotone >}}](mailto:///m.muaz@utexas.edu)]{.icon style="font-size:1.5rem; padding-left: 0pt; padding-right: 0pt"}
+<!-- [[{{< iconify ph graduation-cap-duotone >}}](https://scholar.google.com/citations?user=vV_1zDwAAAAJ&hl=en)]{.icon style="font-size:1.5rem; padding-left: 0pt; padding-right: 0pt"} -->
+<!-- [[{{< iconify ph spotify-logo-duotone >}}](https://open.spotify.com/user/saforem2)]{.icon style="font-size:1.5rem; padding-left: 0pt; padding-right: 0pt"} -->
+<!-- [[{{< iconify ph lastfm-logo-duotone >}}](https://www.last.fm/user/saforem2)]{.icon style="font-size:1.5rem; padding-left: 0pt; padding-right: 0pt"} -->
+[[{{< iconify ph linkedin-logo-duotone >}}](https://www.linkedin.com/in/muhammadmuaz/)]{.icon style="font-size:1.5rem; padding-left: 0pt; padding-right: 0pt"}
 
 :::
 
@@ -59,7 +59,7 @@ problems in science[^disciplines] -->
 
 [^contribution]: If this sounds like something you'd be interested in doing, please
   feel free to [reach out to me](mailto:m.muaz@utexas.edu)!
-[^inspiration]: Website inspiration and code base forked from [Sam Foreman's Personal Website](https://github.com/saforem2/personal_site). Huge thanks to Sam 🐐!
+[^inspiration]: Website inspiration and code base ported from [Sam Foreman's Personal Website](https://github.com/saforem2/personal_site). Huge thanks to Sam 🐐!
 
 <!-- [^disciplines]: So far, for: \{Lattice QCD, Quantum Mechanics, Biology (Protein
   Generation, Drug Discovery), and Climate Modeling / Weather Forecasting\} -->
@@ -67,8 +67,13 @@ problems in science[^disciplines] -->
 :::
 
 ::: {style="margin-top:0.6rem;"}
-::: {.callout-tip icon=false aria-title="Recent Talks" title='🎤 [Recent Talks]{.dim-text}' collapse="false" style="text-align: left!important; width:100%; background:var(--code-bg)!important; border: none!important; border-left: 2px solid #838383!important; border-radius: 0pt!important; opacity:100%;"}
-You can get a live view of some of my recent talks [[here {{< iconify line-md external-link >}}](/qmd/slides.qmd)]{.bright-text}
+
+::: {.callout-tip icon=false aria-title="Resume" title='📝 [Resume]{.dim-text}' collapse="false" style="text-align: left!important; width:100%; background:var(--code-bg)!important; border: none!important; border-left: 2px solid #E03C2B !important; border-radius: 0pt!important; opacity:100%;"}
+You can check out my resume [[here {{< iconify line-md external-link >}}](assets/resume.pdf)]{.bright-text}
+:::
+
+::: {.callout-tip icon=false aria-title="Recent Posts" title='📒 [Recent Posts]{.dim-text}' collapse="true" style="text-align: left!important; width:100%; background:var(--code-bg)!important; border: none!important; border-left: 2px solid #838383!important; border-radius: 0pt!important; opacity:100%;"}
+You can checkout list of recent posts [[here {{< iconify line-md external-link >}}](index.qmd)]{.bright-text}
 :::
 
 <!-- ::: {.callout-tip icon=false aria-title="Now Playing" title='[![](https://api.iconify.design/logos:spotify-icon.svg?color=%23888888) Now Playing:]{style="color:#1ED760;"}' collapse="true" style='width:100%; border: none!important; border-left: 2px solid #1ED760!important; border-radius: 0pt!important; opacity: 100%;'}
@@ -77,9 +82,9 @@ You can get a live view of some of my recent talks [[here {{< iconify line-md ex
 :::
 :::
 
-- <details closed><summary>👀 <strong>If you're curious</strong></summary>
+- <details open><summary>👀 <strong>If you're curious</strong></summary>
 
-  - <details closed><summary>📍 How I got here</summary>
+  - <details closed><summary>📍 My current research \& How I got here</summary>
 
       [NOTE: Update the **NEW** text below !!]: #
 
@@ -527,7 +532,7 @@ You can get a live view of some of my recent talks [[here {{< iconify line-md ex
 
   - [Machine Learning and Quantum Computing for Earth Sciences](https://17.usnccm.org/702) at 17th U. S. National Congress on Computational Mechanics, July 2023 -->
 
-### 🪖 Experience
+<!-- ### 🪖 Experience
 
 ::: {#tbl-experience}
 |                                                                                    |                              |      |      |     |
@@ -537,7 +542,7 @@ You can get a live view of some of my recent talks [[here {{< iconify line-md ex
 | Graduate Researcher                                                                |  [ANL](https://anl.gov)  | 2018 | 2019 |     |
 
 : 📟 Experience {.striped .hover}
-:::
+::: -->
 
 ### 🎓 Education
 
@@ -545,9 +550,9 @@ You can get a live view of some of my recent talks [[here {{< iconify line-md ex
 
 |                                       |                                                                                              |                                    |      |
 |:------------------------------------- |:--------------------------------------------------------------------------------------------:|:----------------------------------:|:----:|
-| [PhD](https://bit.ly/sam-foreman-phd) |                  [Physics](https://physics.uiowa.edu/graduate/phd-physics)                   |                University of Iowa  | 2019 |
-| B.Sc                                  |  [Physics](https://grainger.illinois.edu/academics/undergraduate/majors-and-minors/physics)  |      [UIUC](https://illinois.edu/) | 2015 |
-| B.Sc                                  |                       [Math](https://math.illinois.edu/)                                     |                        UIUC        | 2015 |
+| PhD |                  [Computer Science](https://www.cs.utexas.edu/graduate-program/phd-program)                   |                [University of Texas at Austin](https://www.utexas.edu/) ![](/assets/hookem.jpeg){style='width:50px;'}  | Sep <code>2021</code>-_Current_ |
+| M.S                                  |  [Computer Science](https://www.cs.utexas.edu/graduate-program)  |      [University of Texas at Austin](https://www.utexas.edu/) ![](/assets/hookem.jpeg){style='width:50px;'} | Sep <code>2021</code>-May<code>2024</code> |
+| BS                                  |                       [Electrical Engineering](https://sbasse.lums.edu.pk/department-of-electrical-engineering)                                     |                        [LUMS](https://lums.edu.pk/) ![](/assets/lums-logo.png){style='width:50px;'}      | Sep<code>2017</code>-May <code>2021</code> |
 
 : 🎓 Education {.striped .hover}
 
@@ -556,7 +561,7 @@ You can get a live view of some of my recent talks [[here {{< iconify line-md ex
 ### ❤️‍🩹 Status
 
 
-![](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsamforeman.me&count_bg=%2300CCFF&title_bg=%23303030&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)
+![](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwww.cs.utexas.edu%2F%7Emmuaz%2F&count_bg=%23D71818&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)
 <!-- <a href="https://hits.seeyoufarm.com"><img align="center" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsamforeman.me&count_bg=%2300CCFF&title_bg=%23303030&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a> -->
 
 

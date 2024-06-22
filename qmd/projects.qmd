@@ -12,6 +12,8 @@ format:
 title-block-banner: false
 title: Projects
 sidebar: false
+navbar:
+   search: false
 editor:
    render-on-save: true
 execute:

@@ -2,28 +2,28 @@ website:
   # sidebar: true
   title: "Muhammad Muaz"
   page-navigation: true
-  favicon: "./favicon.svg"
+  favicon: "./assets/UTshield1.png"
   back-to-top-navigation: true
   # google-analytics: G-XVM2Y822Y1
   # gtag: G-E72QE53WSY
   site-url: "https://www.cs.utexas.edu/~mmuaz/"
   repo-actions: [source, edit, issue]
-  repo-url: https://github.com/saforem2/personal_site
+  repo-url: https://github.com/m-muaz/personal_site
   description: "Muhammad Muaz"
-  # open-graph:
-  #   title: "Muhammad Muaz"
-  #   description: "My ramblings about science and computers"
-  #   image: "https://github.com/saforem2/personal_site/blob/main/assets/thumbnail.png?raw=true"
-  # twitter-card:
-  #   site: "@saforem2"
-  #   creator: "@saforem2"
-  #   title: "Sam Foreman"
-  #   description: "My ramblings about science and computers"
-  #   image: "https://github.com/saforem2/personal_site/blob/main/assets/thumbnail.png?raw=true"
+  open-graph:
+    title: "Muhammad Muaz"
+    description: "A cozy place for my thoughts and achievements"
+    image: "https://github.com/m-muaz/personal_site/blob/main/assets/m-thumbnail.png?raw=true"
+  twitter-card:
+    site: "@its_muazizzm"
+    creator: "@its_muazizzm"
+    title: "Muhammad Muaz"
+    description: "A cozy place for my thoughts and achievements"
+    image: "https://github.com/m-muaz/personal_site/blob/main/assets/m-thumbnail.png?raw=true"
   navbar:
     search: false
     # title: false
-    logo: "./favicon.svg"
+    logo: "assets/UTshield1.png"
     background: "rgba(34, 34, 34, 0.95)"
     foregound: "#838383"
     # tools:
@@ -42,7 +42,7 @@ website:
           #   href: "./qmd/posts.qmd"
           # - text: "📸 <code>flash-attn</code> on Sunspot"
           #   href: "./qmd/flash-attn-sunspot/index.qmd"
-          - text: "💅 How to Make Dope Slides"
+          - text: "💅 How to Make Dope Slides by Sam Foreman"
             href: qmd/dope-slides/index.qmd
           # - text: "🍋 Distributed Training with `ezpz`"
           #   href: qmd/ezpz/ezpz.qmd
@@ -67,104 +67,104 @@ website:
       # - text: "📚 Projects"
       #   url: "./qmd/projects.qmd"
 
-      - text: "🎙️ Talks"
-        menu:
-          - text: "📢 All Talks"
-            href: "./qmd/slides.qmd"
+      # - text: "🎙️ Talks"
+      #   menu:
+      #     - text: "📢 All Talks"
+      #       href: "./qmd/slides.qmd"
 
-          - text: "Parallel Training Techniques"
-            url: "https://saforem2.github.io/parallel-training-slides/"
+      #     - text: "Parallel Training Techniques"
+      #       url: "https://saforem2.github.io/parallel-training-slides/"
 
-          - text: "LLMs from Scratch"
-            url: "https://saforem2.github.io/llm-workshop-talk/"
+      #     - text: "LLMs from Scratch"
+      #       url: "https://saforem2.github.io/llm-workshop-talk/"
 
-          - text: "Creating Small[~ish] LLMs"
-            url: "https://saforem2.github.io/LLM-tutorial"
+      #     - text: "Creating Small[~ish] LLMs"
+      #       url: "https://saforem2.github.io/LLM-tutorial"
 
-          - text: "Exascale Science on Aurora"
-            url: "https://saforem2.github.io/onapi-talk/#0"
+      #     - text: "Exascale Science on Aurora"
+      #       url: "https://saforem2.github.io/onapi-talk/#0"
 
-          - text: "LLM Lunch Talk"
-            url: "https://saforem2.github.io/llm-lunch-talk/"
+      #     - text: "LLM Lunch Talk"
+      #       url: "https://saforem2.github.io/llm-lunch-talk/"
 
-          - text: "Scaling LLMs for Science"
-            url: "https://saforem2.github.io/scaling4science"
+      #     - text: "Scaling LLMs for Science"
+      #       url: "https://saforem2.github.io/scaling4science"
 
-          - text: "MLMC (for LQCD)"
-            url: "https://saforem2.github.io/lattice23"
+      #     - text: "MLMC (for LQCD)"
+      #       url: "https://saforem2.github.io/lattice23"
 
-          - text: "Generative Modeling"
-            url: "https://saforem2.github.io/lqcd-pasc23"
+      #     - text: "Generative Modeling"
+      #       url: "https://saforem2.github.io/lqcd-pasc23"
 
-          - text: "Efficient Sampling for LGT"
-            url: "https://saforem2.github.io/deep-fridays"
+      #     - text: "Efficient Sampling for LGT"
+      #       url: "https://saforem2.github.io/deep-fridays"
 
-          - text: "Large Scale Training"
-            url: "https://saforem2.github.io/ai4sci-large-scale-training"
+      #     - text: "Large Scale Training"
+      #       url: "https://saforem2.github.io/ai4sci-large-scale-training"
 
-          - text: "Hyperparameter Management"
-            url: "https://saforem2.github.io/hparam-management-sdl2022"
+      #     - text: "Hyperparameter Management"
+      #       url: "https://saforem2.github.io/hparam-management-sdl2022"
 
-          - text: "Statistical Learning"
-            url: "https://saforem2.github.io/ATPESC-StatisticalLearning"
+      #     - text: "Statistical Learning"
+      #       url: "https://saforem2.github.io/ATPESC-StatisticalLearning"
 
-          - text: "Scientific Data Science"
-            url: "https://saforem2.github.io/anl-job-talk/"
+      #     - text: "Scientific Data Science"
+      #       url: "https://saforem2.github.io/anl-job-talk/"
 
-          - text: "Machine Learning in HEP"
-            url: "https://saforem2.github.io/physicsSeminar"
+      #     - text: "Machine Learning in HEP"
+      #       url: "https://saforem2.github.io/physicsSeminar"
 
-          - text: "DLHMC for Improved Gauge Generation"
-            url: "https://bit.ly/mainz21"
+      #     - text: "DLHMC for Improved Gauge Generation"
+      #       url: "https://bit.ly/mainz21"
 
-          - text: "ML for LQCD"
-            url: "https://slides.com/samforeman/l2hmc-qcd-93bc0c"
+      #     - text: "ML for LQCD"
+      #       url: "https://slides.com/samforeman/l2hmc-qcd-93bc0c"
 
-          - text: "ML Techniques in LQCD"
-            url: "https://bit.ly/mainz21_overview"
+      #     - text: "ML Techniques in LQCD"
+      #       url: "https://bit.ly/mainz21_overview"
 
-          - text: "ML for HEP"
-            url: "https://saforem2.github.io/physicsSeminar"
+      #     - text: "ML for HEP"
+      #       url: "https://saforem2.github.io/physicsSeminar"
 
       # - text: "➕ More"
       #   menu:
-      - text: "🎁 Projects"
-        menu:
-        - text: "📚 All Projects"
-          url: "./qmd/projects.qmd"
+      # - text: "🎁 Projects"
+      #   menu:
+      #   - text: "📚 All Projects"
+      #     url: "./qmd/projects.qmd"
 
-        - text: "🍋 `ezpz`"
-          url: https://saforem2.github.io/ezpz
+      #   - text: "🍋 `ezpz`"
+      #     url: https://saforem2.github.io/ezpz
 
-        - text: "🟥 `l2hmc-qcd`"
-          url: https://saforem2.github.io/l2hmc-qcd
+      #   - text: "🟥 `l2hmc-qcd`"
+      #     url: https://saforem2.github.io/l2hmc-qcd
 
-        - text: "🤖 `Megatron-DeepSpeed`"
-          url: https://github.com/argonne-lcf/Megatron-DeepSpeed)
+      #   - text: "🤖 `Megatron-DeepSpeed`"
+      #     url: https://github.com/argonne-lcf/Megatron-DeepSpeed)
 
-        - text: "💬 `wordplay` 🎮"
-          url: https://saforem2.github.io/wordplay
+      #   - text: "💬 `wordplay` 🎮"
+      #     url: https://saforem2.github.io/wordplay
 
-        - text: "🎓 `ai-science-training`"
-          url: https://www.alcf.anl.gov/alcf-ai-science-training-series?
+      #   - text: "🎓 `ai-science-training`"
+      #     url: https://www.alcf.anl.gov/alcf-ai-science-training-series?
 
-        - text: "💸 `enrich`"
-          url: https://saforem2.github.io/enrich
+      #   - text: "💸 `enrich`"
+      #     url: https://saforem2.github.io/enrich
 
-        - text: "🤷🏻‍♂️`ambivalent`"
-          url: https://saforem2.github.io/ambivalent
+      #   - text: "🤷🏻‍♂️`ambivalent`"
+      #     url: https://saforem2.github.io/ambivalent
 
-        - text: "🌍 `climate-analysis`"
-          url: https://saforem2.github.io/climate-analysis
+      #   - text: "🌍 `climate-analysis`"
+      #     url: https://saforem2.github.io/climate-analysis
 
-        - text: "🎨 `glitz`"
-          url: https://github.com/saforem2/glitz
+      #   - text: "🎨 `glitz`"
+      #     url: https://github.com/saforem2/glitz
 
-        - text: "🙋🏻`personal_site`"
-          url: https://github.com/saforem2/personal_site
+      #   - text: "🙋🏻`personal_site`"
+      #     url: https://github.com/saforem2/personal_site
 
-        - text: "🗒️ `Notes-Demo`"
-          url: https://github.com/saforem2/notes-demo
+      #   - text: "🗒️ `Notes-Demo`"
+      #     url: https://github.com/saforem2/notes-demo
     #     menu:
     #       - text: Source Code
     #         url: https://github.com/saforem2/personal_site/blob/main/index.qmd
@@ -259,17 +259,17 @@ website:
         # # text: "[{{< iconify line-md computer >}}]{.blue-text style='font-size:1.0em;'} Projects"
         # # text: "[{{< iconify line-md image >}}]{.green-text style='font-size: 1.0em;'} Talks"
     right:
-      - href: https://twitter.com/saforem2
+      - href: https://x.com/its_muazizzm
         text: "[{{< iconify line-md twitter >}}]{style='font-size: 1.15em;'}"
         aria-label: Twitter
-      - href: https://github.com/saforem2/personal_site
+      - href: https://github.com/m-muaz/personal_site
         text: "[{{< iconify line-md github-loop >}}]{style='font-size: 1.15em;'}"
         aria-label: GitHub
         menu:
           - text: Source Code
-            url: https://github.com/saforem2/personal_site/blob/main/index.qmd
+            url: https://github.com/m-muaz/personal_site/blob/main/index.qmd
           - text: New Issue
-            url: https://github.com/saforem2/personal_site/issues/new/choose
+            url: https://github.com/m-muaz/personal_site/issues/new/choose
       - href: "docs/sitemap.xml"
         text: "[{{< iconify line-md rss >}}]{style='font-size: 1.15em;'}"
         aria-label: RSS
@@ -400,40 +400,40 @@ website:
 
 
   page-footer:
-    left: "Copyright 2024, Sam Foreman" 
-    right: "[samforeman.me](https://samforeman.me)"
+    left: "Copyright 2024, Muhammad Muaz" 
+    right: "[cs.utexas.edu/~mmuaz](https://cs.utexas.edu/~mmuaz)"
     center:
-      - href: https://samforeman.me
+      - href: https://cs.utexas.edu/~mmuaz
         text: "[{{< fa solid home >}}]{style='font-size: 1.25em;'}"
 
       # - icon: github
-      - href: https://github.com/saforem2
+      - href: https://github.com/m-muazs
         text: "[{{< fa brands github >}}]{style='font-size: 1.25em;'}"
 
       # - icon: twitter
-      - href: https://twitter.com/saforem2
+      - href: https://x.com/its_muazizzm
         text: "[{{< fa brands twitter >}}]{style='font-size: 1.25em;'}"
 
-      - href: "mailto:///foremans@anl.gov"
+      - href: "mailto:///m.muaz@utexas.edu"
         text: "[{{< fa regular paper-plane >}}]{style='font-size: 1.25em;'}"
 
       # - href: https://www.twitter.com/saforem2
       #   text: "[{{< fa brands twitter >}}]{style='font-size: 1.25em;'}"
 
-      - href: https://scholar.google.com/citations?user=vV_1zDwAAAAJ&hl=en
-        text: "[{{< ai google-scholar >}}]{style='font-size: 1.25em;'}"
+      # - href: https://scholar.google.com/citations?user=vV_1zDwAAAAJ&hl=en
+      #   text: "[{{< ai google-scholar >}}]{style='font-size: 1.25em;'}"
 
-      - href: https://orcid.org/0000-0002-9981-0876
-        text: "[{{< ai orcid >}}]{style='font-size: 1.25em;'}"
+      # - href: https://orcid.org/0000-0002-9981-0876
+      #   text: "[{{< ai orcid >}}]{style='font-size: 1.25em;'}"
 
-      - href: https://www.last.fm/user/saforem2
-        text: "[{{< fa brands lastfm >}}]{style='font-size: 1.25em;'}"
+      # - href: https://www.last.fm/user/saforem2
+      #   text: "[{{< fa brands lastfm >}}]{style='font-size: 1.25em;'}"
 
-      - href: https://open.spotify.com/user/saforem2
-        text: "[{{< fa brands spotify >}}]{style='font-size: 1.25em;'}"
+      # - href: https://open.spotify.com/user/saforem2
+      #   text: "[{{< fa brands spotify >}}]{style='font-size: 1.25em;'}"
 
-      - href: https://www.instagram.com/saforem2
-        text: "[{{< fa brands instagram >}}]{style='font-size: 1.25em;'}"
+      # - href: https://www.instagram.com/saforem2
+      #   text: "[{{< fa brands instagram >}}]{style='font-size: 1.25em;'}"
 
-      - href: https://linkedin.com/in/saforem2
+      - href: https://www.linkedin.com/in/muhammadmuaz/
         text: "[{{< fa brands linkedin >}}]{style='font-size: 1.25em;'}"
