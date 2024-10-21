@@ -40,31 +40,12 @@ website:
         menu:
         - text: "All Posts"
           href: "./posts/index.qmd"
-        - text: "TokenCache `arXiv:2409.18523`"
-          href: "./posts/papers/token_cache_2409_18523/index.qmd"
-        #   - text: "How to Make Dope Slides"
-        #     url: ../qmd/dope-slides/index.qmd
-        #   - text: "Talks"
-        #     url: ../qmd/slides.qmd
-        #   - text: "`ezpz`"
-        #     url: ../qmd/ezpz/ezpz.qmd
-        #   - text: "Loooooooong Sequence Lengths"
-        #     url: ../qmd/dsblog.qmd
-        #   - text: "Megatron DeepSpeed on `xpu`"
-        #     url: ../qmd/aurora-gpt/megatron-ds-intel.qmd
+        - text: "Reading List - `arXiv` papers"
+          href: "./posts/papers/index.qmd"
       - text: "🎨 Dope Slides"
         menu:
-          # - text: "📬 All Posts"
-          #   href: "./qmd/posts.qmd"
-          # - text: "📸 <code>flash-attn</code> on Sunspot"
-          #   href: "./qmd/flash-attn-sunspot/index.qmd"
-          - text: "💅 How to Make Dope Slides by Sam Foreman"
-            href: "https://samforeman.me/posts/dope-slides/"
-          # - text: "🍋 Distributed Training with `ezpz`"
-          #   href: qmd/ezpz/ezpz.qmd
-          # - text: "🚂 Loooooooong Sequence Lengths"
-          #   href: qmd/dsblog.qmd
-
+         - text: "💅 How to Make Dope Slides by Sam Foreman"
+           href: "https://samforeman.me/posts/dope-slides/"
       # - text: "📚 Projects"
       #   url: "./qmd/projects.qmd"
 

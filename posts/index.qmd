@@ -19,25 +19,25 @@ editor:
 # format:
 #   html:
 #     page-layout: full
-listing:
-  - id: listing-posts
-    table-striped: true
-    sort: "date desc"
-    filter-ui: false
-    sort-ui: false
-    type: table
-    table-hover: true
-    fields: [title, date]
-    date-format: iso
-    # field-display-names: false
-    contents:
-      - "../posts/**/index.qmd"
-      - "!../posts/papers/template/index.qmd"
-      - "!../posts/papers/multi-file*/index.qmd"
+# listing:
+#   - id: listing-all
+#     table-striped: true
+#     sort: "date desc"
+#     filter-ui: false
+#     sort-ui: false
+#     type: table
+#     table-hover: true
+#     fields: [title, date]
+#     date-format: iso
+#     # field-display-names: false
+#     contents:
+#       - "../posts/papers/**/*.qmd"
+#       - "!../posts/papers/template/index.qmd"
+#       - "!../posts/papers/multi-file*/index.qmd"
 ---
-## 🚀 New Stuff 🗞️
+# 🚀 Embark on Your Exploration Journey
 
-:::{#listing-posts}
-:::
+## 🗞️Reading List - `arXiv` papers 
+- [View Reading List](./papers/index.qmd)
 
 

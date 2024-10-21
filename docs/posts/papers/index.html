@@ -7,10 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Muhammad Muaz">
-<meta name="dcterms.date" content="2024-10-16">
-<meta name="keywords" content="Diffusion models, Token Caching, Optimization, Model Acceleration">
+<meta name="dcterms.date" content="2024-10-21">
 
-<title>Muhammad Muaz - Token Caching for Diffusion Transformer Acceleration arxiv:2409.18523</title>
+<title>Muhammad Muaz - 📬 Posts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,54 +22,33 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../.././assets/UTshield1.png" rel="icon" type="image/png">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<script src="../../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
-<script src="../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../.././assets/UTshield1.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -98,6 +76,35 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-arxiv-reading-list .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-arxiv-reading-list'] = new List('listing-arxiv-reading-list', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TC329HJ');</script>
 <!-- End Google Tag Manager -->
@@ -151,8 +158,8 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../../../css/default.css">
-<link rel="stylesheet" href="../../../css/callouts.css">
+<link rel="stylesheet" href="../../css/default.css">
+<link rel="stylesheet" href="../../css/callouts.css">
 <meta property="og:title" content="Muhammad Muaz">
 <meta property="og:description" content="A cozy place for my thoughts and achievements">
 <meta property="og:image" content="https://github.com/m-muaz/personal_site/blob/main/assets/m-thumbnail.png?raw=true">
@@ -164,29 +171,28 @@ window.Quarto = {
 <meta name="twitter:site" content="@its_muazizzm">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="citation_title" content="Personal Website">
-<meta name="citation_keywords" content="Diffusion models,Token Caching,Optimization,Model Acceleration">
 <meta name="citation_author" content="Muhammad Muaz">
-<meta name="citation_publication_date" content="2024-10-16">
-<meta name="citation_cover_date" content="2024-10-16">
+<meta name="citation_publication_date" content="2024-10-21">
+<meta name="citation_cover_date" content="2024-10-21">
 <meta name="citation_year" content="2024">
-<meta name="citation_online_date" content="2024-10-16">
+<meta name="citation_online_date" content="2024-10-21">
 <meta name="citation_fulltext_html_url" content="https://cs.utexas.edu/~mmuaz">
 <meta name="citation_language" content="en">
 <meta name="citation_reference" content="citation_title=Token caching for diffusion transformer acceleration;,citation_author=Jinming Lou;,citation_author=Wenyang Luo;,citation_author=Yufan Liu;,citation_author=Bing Li;,citation_author=Xinmiao Ding;,citation_author=Weiming Hu;,citation_author=Jiajiong Cao;,citation_author=Yuming Li;,citation_author=Chenguang Ma;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://arxiv.org/abs/2409.18523;">
 <meta name="citation_reference" content="citation_title=Accelerating diffusion transformers with token-wise feature caching;,citation_author=Chang Zou;,citation_author=Xuyang Liu;,citation_author=Ting Liu;,citation_author=Siteng Huang;,citation_author=Linfeng Zhang;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://arxiv.org/abs/2410.05317;">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../assets/UTshield1.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../assets/UTshield1.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Muhammad Muaz</span>
     </a>
   </div>
@@ -202,11 +208,11 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-posts">    
         <li>
-    <a class="dropdown-item" href="../../../posts/index.html">
+    <a class="dropdown-item" href="../../posts/index.html">
  <span class="dropdown-text">All Posts</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../posts/papers/index.html">
+    <a class="dropdown-item" href="../../posts/papers/index.html">
  <span class="dropdown-text">Reading List - <code>arXiv</code> papers</span></a>
   </li>  
     </ul>
@@ -233,7 +239,7 @@ window.Quarto = {
 <span class="menu-text"><span style="font-size: 1.15em;"><iconify-icon inline="" icon="line-md:github-loop" aria-label="Icon github-loop from line-md Iconify.design set." title="Icon github-loop from line-md Iconify.design set."></iconify-icon></span></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/sitemap.xml"> 
+    <a class="nav-link" href="../../docs/sitemap.xml"> 
 <span class="menu-text"><span style="font-size: 1.15em;"><iconify-icon inline="" icon="line-md:rss" aria-label="Icon rss from line-md Iconify.design set." title="Icon rss from line-md Iconify.design set."></iconify-icon></span></span></a>
   </li>  
 </ul>
@@ -245,228 +251,115 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#sec-contributions" id="toc-sec-contributions" class="nav-link" data-scroll-target="#sec-contributions">Motivation &amp; Key Contributions</a></li>
-  <li><a href="#sec-tokencache" id="toc-sec-tokencache" class="nav-link" data-scroll-target="#sec-tokencache">Token Cache (System Overview)</a>
-  <ul class="collapse">
-  <li><a href="#tokencache" id="toc-tokencache" class="nav-link" data-scroll-target="#tokencache">TokenCache</a></li>
-  <li><a href="#cache-predictor-visualized" id="toc-cache-predictor-visualized" class="nav-link" data-scroll-target="#cache-predictor-visualized">Cache Predictor (Visualized)</a></li>
-  </ul></li>
-  <li><a href="#sec-tppr" id="toc-sec-tppr" class="nav-link" data-scroll-target="#sec-tppr">Two-Phase Round Robin Timestep Scheduler</a></li>
-  <li><a href="#sec-exp" id="toc-sec-exp" class="nav-link" data-scroll-target="#sec-exp">Experimental Results</a></li>
-  <li><a href="#sec-ref" id="toc-sec-ref" class="nav-link" data-scroll-target="#sec-ref">References</a>
-  <ul class="collapse">
-  <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">📑 Bibliography</a></li>
-  </ul></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/m-muaz/personal_site/blob/main/posts/papers/token_cache_2409_18523/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/m-muaz/personal_site/edit/main/posts/papers/token_cache_2409_18523/index.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/m-muaz/personal_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
-    </div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC329HJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">Token Caching for Diffusion Transformer Acceleration <a href="https://arxiv.org/pdf/2409.18523"><code>arxiv:2409.18523</code></a></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source" data-quarto-source-url="https://github.com/m-muaz/personal_site/blob/main/posts/papers/token_cache_2409_18523/index.qmd"><i class="bi"></i></button></div></div>
+<div class="quarto-title-block"><div><h1 class="title">📬 Posts</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source" data-quarto-source-url="https://github.com/m-muaz/personal_site/blob/main/posts/papers/index.qmd"><i class="bi"></i></button></div></div>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     <div>
     <div class="quarto-title-meta-heading"></div>
     <div class="quarto-title-meta-contents">
-             <p>Muhammad Muaz <a href="mailto:m.muaz@utexas.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+             <p><a href="https://cs.utexas.edu/~mmuaz">Muhammad Muaz</a> <a href="mailto:m.muaz@utexas.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading"></div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 16, 2024</p>
+      <p class="date">October 21, 2024</p>
     </div>
   </div>
   
-    <div>
-    <div class="quarto-title-meta-heading"></div>
-    <div class="quarto-title-meta-contents">
-      <p class="date-modified">October 16, 2024</p>
-    </div>
-  </div>
     
   </div>
   
 
-<div>
-  <div class="keywords">
-    <div class="block-title">Keywords</div>
-    <p>Diffusion models, Token Caching, Optimization, Model Acceleration</p>
-  </div>
-</div>
 
 </header>
 
 
-<section id="overview" class="level1">
-<h1>Overview</h1>
-<ol type="1">
-<li><a href="#sec-contributions">Motivation &amp; Key Contributions</a></li>
-<li><a href="#sec-tokencache">TokenCache</a></li>
-<li><a href="#sec-tppr">Two-Phase Round Robin Timestep Schedule</a></li>
-<li><a href="#sec-exp">Experimental Results</a></li>
-<li><a href="#sec-limitations">Limitations</a></li>
-<li><a href="#sec-ref">References</a></li>
-</ol>
-</section>
-<section id="sec-contributions" class="level1" style="font-size:0.9em;text-align: left">
-<h1 style="font-size:0.9em;text-align: left">Motivation &amp; Key Contributions</h1>
-<ul>
-<li>Motivation:
-<ul>
-<li>Diffusion generative models are slow because of high computational cost, arising from:
-<ul>
-<li><strong>Quadratic computational complexity</strong> of attention mechanisms</li>
-<li>Multi-step inference</li>
-</ul></li>
-</ul></li>
-</ul>
-<p>&nbsp;<br></p>
-<ul>
-<li>How to reduce this computational bottleneck?
-<ul>
-<li>Reduce redundant computations among tokens across inference steps</li>
-</ul></li>
-</ul>
-<p>&nbsp;<br></p>
-<ul>
-<li>Key Contributions:
-<ul>
-<li><em>Which <span class="red-text">tokens</span></em> should be <strong>pruned</strong> to eliminate redundancy?</li>
-<li><em>Which <span class="green-text">blocks</span></em> should be <strong>targeted</strong> to prune the tokens?</li>
-<li><em>Which <span class="purple-text">timesteps</span></em> should be applied caching?</li>
-</ul></li>
-</ul>
-</section>
-<section id="sec-tokencache" class="level1">
-<h1>Token Cache (System Overview)</h1>
-<div id="fig-token-cache" class="r-stretch quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-token-cache-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="./assets/token-cache.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1"><img src="./assets/token-cache.png" class="r-stretch img-fluid figure-img"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-token-cache-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Overview of TokenCache
-</figcaption>
-</figure>
-</div>
-<section id="tokencache" class="level2 centeredslide smaller">
-<h2 class="centeredslide smaller anchored" data-anchor-id="tokencache">TokenCache</h2>
-<div class="columns">
-<div style="text-align:left;font-size:0.9em">
-<ul>
-<li><p>Use a small learnable network <span class="math inline">g_{θ}</span> dubbed <strong>Cache Predictor</strong> <span class="citation" data-cites="lou2024tokencachingdiffusiontransformer">Lou et al. (<a href="#ref-lou2024tokencachingdiffusiontransformer" role="doc-biblioref">2024</a>)</span> to predict the importance of the tokens <span class="math inline">w^{t}_{l} = g_{θ}(l, t) \in \mathbf{R}^{n}</span>, and prune the tokens based on their relative importance.</p></li>
-<li><p>How to learn <span class="math inline">g_{θ}</span>?</p>
-<ul>
-<li>Instead of predicing binary importance <span class="math inline">[0,1]</span>, use interpolation to “superpose” pruned and non-pruned token states</li>
-<li>Interpolated states are gerenated via: <span class="math display">\hat{z}^{t}_{l+1} = z^{t}_{l} + \hat{f}_{l}(z^{t}_{l})</span></li>
-</ul>
-<p><span class="math display">\hat{f}(z^{t}_{l}) = \textcolor{#800080}{w^{t}_{l} ⦿ f_{l}(z^{t}_{l})} + \textcolor{#008080}{(1 - w^{t}_{l}) ⦿ f_{l}(z^{t+1}_{l})}   </span> where diffusion transformer contains total number of <span class="math inline">L</span> network blocks, with a total of <span class="math inline">T</span> inference timesteps and <span class="math inline">z^{t}_{l} \in \mathbf{R}^{n \times d}</span> denotes input to block <span class="math inline">f_{l}</span> at timestep <span class="math inline">t</span></p></li>
-</ul>
-<div class="callout callout-style-simple callout-important no-icon callout-titled" title="🔍 Optimization Objective" style="text-align:center;font-size:1.5em;width=100%">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-🔍 Optimization Objective
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><span class="math display">
-ℒ_{\text{mse}} = 𝔼_{t, z^{t}_{L+1}, \hat{z}^{t}_{L+1}} [‖ z^{t}_{L+1} - \hat{z}^{t}_{L+1}‖^{2}_{2}]
-</span></p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="cache-predictor-visualized" class="level2 centeredslide">
-<h2 class="centeredslide anchored" data-anchor-id="cache-predictor-visualized">Cache Predictor (Visualized)</h2>
-<div id="fig-cache-pred" class="r-stretch quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-cache-pred-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="./assets/cache-predictor.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2"><img src="./assets/cache-predictor.png" class="r-stretch img-fluid figure-img"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cache-pred-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: Overview of Cache Predictor
-</figcaption>
-</figure>
-</div>
-</section>
-</section>
-<section id="sec-tppr" class="level1" style="font-size:0.9em">
-<h1 style="font-size:0.9em">Two-Phase Round Robin Timestep Scheduler</h1>
-<ul>
-<li><p>Token Caching inherintly adds errors into the <strong>sampling</strong>trajectory.</p></li>
-<li><p>How to mitigate errors?</p>
-<ul>
-<li>Perform independent (no-cache) steps (I-Steps) after <span class="math inline">K</span> prediction/caching steps (P-Steps)</li>
-<li><span class="math inline">K</span> = <strong><em>Caching Interval</em></strong></li>
-</ul></li>
-<li><p>How to choose <span class="math inline">K</span>?</p>
-<ul>
-<li>Token correlations vary across timesteps.
-<ul>
-<li>Higher correlations among tokens across <strong>early timesteps</strong></li>
-<li>Lower correlations among tokens across <strong>later timesteps</strong></li>
-</ul></li>
-</ul></li>
-</ul>
-<div class="{font-size:9em}">
-<p><strong>TPPR</strong></p>
-</div>
-<ul>
-<li>Phase-<span class="math inline">1</span> employs larger <em>caching interval</em> <span class="math inline">K_1</span></li>
-<li>Phase-<span class="math inline">2</span> employs smaller <em>caching interval</em> <span class="math inline">K_2</span></li>
-</ul>
-</section>
-<section id="sec-exp" class="level1 centeredslide scrollable">
-<h1 class="centeredslide scrollable">Experimental Results</h1>
-<div data-layout-nrows="2">
-<p><img src="./assets/dit.png" class="r-stretch" height="300" alt="DiT-XL/2"> <img src="./assets/mdt.png" class="r-stretch" height="300" alt="MDT"></p>
-</div>
-</section>
-<section id="sec-ref" class="level1" data-visibility="hidden">
-<h1 data-visibility="hidden">References</h1>
-<section id="bibliography" class="level2">
-<h2 class="anchored" data-anchor-id="bibliography">📑 Bibliography</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-lou2024tokencachingdiffusiontransformer" class="csl-entry" role="listitem">
-Lou, Jinming, Wenyang Luo, Yufan Liu, Bing Li, Xinmiao Ding, Weiming Hu, Jiajiong Cao, Yuming Li, and Chenguang Ma. 2024. <span>“Token Caching for Diffusion Transformer Acceleration.”</span> <a href="https://arxiv.org/abs/2409.18523">https://arxiv.org/abs/2409.18523</a>.
-</div>
+<section id="reading-list---arxiv-papers" class="level2">
+<h2 class="anchored" data-anchor-id="reading-list---arxiv-papers">🚀 Reading List - <code>arXiv</code> papers</h2>
+<div id="listing-posts">
+
 </div>
 
 
-<div class="hidden" aria-hidden="true">
-<span class="glightbox-desc lightbox-desc-1">Figure&nbsp;1: Overview of TokenCache</span>
-<span class="glightbox-desc lightbox-desc-2">Figure&nbsp;2: Overview of Cache Predictor</span>
-</div>
-</section>
+
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-muaz2024" class="csl-entry quarto-appendix-citeas" role="listitem">
-Muaz, Muhammad. 2024. <span>“Personal Website.”</span> October 16, 2024.
+<div class="quarto-listing quarto-listing-container-table" id="listing-arxiv-reading-list">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-arxiv-reading-list-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-arxiv-reading-list'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table table-striped table-hover">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-date-sort="1729054800000" data-listing-file-modified-sort="1729500105275" data-listing-date-modified-sort="1729054800000" data-listing-reading-time-sort="2" data-listing-word-count-sort="355" data-listing-title-sort="Token Caching for Diffusion Transformer Acceleration [`arxiv:2409.18523`](https://arxiv.org/pdf/2409.18523)" data-listing-filename-sort="index.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="../../posts/papers/token_cache_2409_18523/index.html" class="title listing-title">Token Caching for Diffusion Transformer Acceleration </a><a href="https://arxiv.org/pdf/2409.18523"><code>arxiv:2409.18523</code></a>
+</td>
+<td>
+<span class="listing-date">2024-10-16</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{muaz2024,
+  author = {Muaz, Muhammad},
+  title = {Personal {Website}},
+  date = {2024-10-21},
+  url = {https://cs.utexas.edu/~mmuaz},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-muaz2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Muaz, Muhammad. 2024. <span>“Personal Website.”</span> October 21, 2024.
 <a href="https://cs.utexas.edu/~mmuaz">https://cs.utexas.edu/~mmuaz</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1107,37 +1000,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </a>
   </li>  
 </ul>
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/m-muaz/personal_site/blob/main/posts/papers/token_cache_2409_18523/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/m-muaz/personal_site/edit/main/posts/papers/token_cache_2409_18523/index.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/m-muaz/personal_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/m-muaz/personal_site/blob/main/posts/papers/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/m-muaz/personal_site/edit/main/posts/papers/index.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/m-muaz/personal_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p><a href="https://cs.utexas.edu/~mmuaz">cs.utexas.edu/~mmuaz</a></p>
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","loop":false,"openEffect":"zoom"});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
-
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
-    }
-  });
-
-};
-          </script>
 
 
 

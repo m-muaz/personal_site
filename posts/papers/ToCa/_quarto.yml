@@ -1,0 +1,7 @@
+google-scholar: true
+google-analytics: G-XVM2Y822Y1
+project:
+  type: website
+  output-dir: docs
+  preview:
+    port: 4204

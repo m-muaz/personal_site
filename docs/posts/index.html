@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Muhammad Muaz">
-<meta name="dcterms.date" content="2024-10-17">
+<meta name="dcterms.date" content="2024-10-21">
 
 <title>Muhammad Muaz - 📬 Posts</title>
 <style>
@@ -33,8 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href=".././assets/UTshield1.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -76,35 +74,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing-posts .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing-posts'] = new List('listing-listing-posts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TC329HJ');</script>
 <!-- End Google Tag Manager -->
@@ -114,49 +83,6 @@ ul.task-list li input[type="checkbox"] {
 <!-- and it's easy to individually load additional languages -->
 <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/languages/go.min.js"></script>
 
-  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
-  <script>document.addEventListener("DOMContentLoaded", function () {
- var mathElements = document.getElementsByClassName("math");
- var macros = [];
- for (var i = 0; i < mathElements.length; i++) {
-  var texText = mathElements[i].firstChild;
-  if (mathElements[i].tagName == "SPAN") {
-   katex.render(texText.data, mathElements[i], {
-    displayMode: mathElements[i].classList.contains('display'),
-    throwOnError: false,
-    macros: macros,
-    fleqn: false
-   });
-}}});
-  </script>
-  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../css/default.css">
 <link rel="stylesheet" href="../css/callouts.css">
@@ -172,13 +98,14 @@ window.Quarto = {
 <meta name="twitter:card" content="summary_large_image">
 <meta name="citation_title" content="Personal Website">
 <meta name="citation_author" content="Muhammad Muaz">
-<meta name="citation_publication_date" content="2024-10-17">
-<meta name="citation_cover_date" content="2024-10-17">
+<meta name="citation_publication_date" content="2024-10-21">
+<meta name="citation_cover_date" content="2024-10-21">
 <meta name="citation_year" content="2024">
-<meta name="citation_online_date" content="2024-10-17">
+<meta name="citation_online_date" content="2024-10-21">
 <meta name="citation_fulltext_html_url" content="https://cs.utexas.edu/~mmuaz">
 <meta name="citation_language" content="en">
 <meta name="citation_reference" content="citation_title=Token caching for diffusion transformer acceleration;,citation_author=Jinming Lou;,citation_author=Wenyang Luo;,citation_author=Yufan Liu;,citation_author=Bing Li;,citation_author=Xinmiao Ding;,citation_author=Weiming Hu;,citation_author=Jiajiong Cao;,citation_author=Yuming Li;,citation_author=Chenguang Ma;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://arxiv.org/abs/2409.18523;">
+<meta name="citation_reference" content="citation_title=Accelerating diffusion transformers with token-wise feature caching;,citation_author=Chang Zou;,citation_author=Xuyang Liu;,citation_author=Ting Liu;,citation_author=Siteng Huang;,citation_author=Linfeng Zhang;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_fulltext_html_url=https://arxiv.org/abs/2410.05317;">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -211,8 +138,8 @@ window.Quarto = {
  <span class="dropdown-text">All Posts</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../posts/papers/token_cache_2409_18523/index.html">
- <span class="dropdown-text">TokenCache <code>arXiv:2409.18523</code></span></a>
+    <a class="dropdown-item" href="../posts/papers/index.html">
+ <span class="dropdown-text">Reading List - <code>arXiv</code> papers</span></a>
   </li>  
     </ul>
   </li>
@@ -279,7 +206,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading"></div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 17, 2024</p>
+      <p class="date">October 21, 2024</p>
     </div>
   </div>
   
@@ -291,50 +218,27 @@ window.Quarto = {
 </header>
 
 
-<section id="new-stuff" class="level2">
-<h2 class="anchored" data-anchor-id="new-stuff">🚀 New Stuff 🗞️</h2>
-<div id="listing-listing-posts" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table table-striped table-hover">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Date
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1729054800000" data-listing-file-modified-sort="1729206290364" data-listing-date-modified-sort="1729054800000" data-listing-reading-time-sort="2" data-listing-word-count-sort="355" data-listing-title-sort="Token Caching for Diffusion Transformer Acceleration [`arxiv:2409.18523`](https://arxiv.org/pdf/2409.18523)" data-listing-filename-sort="index.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="../posts/papers/token_cache_2409_18523/index.html" class="title listing-title">Token Caching for Diffusion Transformer Acceleration </a><a href="https://arxiv.org/pdf/2409.18523"><code>arxiv:2409.18523</code></a>
-</td>
-<td>
-<span class="listing-date">2024-10-16</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<section id="embark-on-your-exploration-journey" class="level1">
+<h1>🚀 Embark on Your Exploration Journey</h1>
+<section id="reading-list---arxiv-papers" class="level2">
+<h2 class="anchored" data-anchor-id="reading-list---arxiv-papers">🗞️Reading List - <code>arXiv</code> papers</h2>
+<ul>
+<li><a href="../posts/papers/index.html">View Reading List</a></li>
+</ul>
 
 
-
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{muaz2024,
   author = {Muaz, Muhammad},
   title = {Personal {Website}},
-  date = {2024-10-17},
+  date = {2024-10-21},
   url = {https://cs.utexas.edu/~mmuaz},
   langid = {en}
 }
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-muaz2024" class="csl-entry quarto-appendix-citeas" role="listitem">
-Muaz, Muhammad. 2024. <span>“Personal Website.”</span> October 17, 2024.
+Muaz, Muhammad. 2024. <span>“Personal Website.”</span> October 21, 2024.
 <a href="https://cs.utexas.edu/~mmuaz">https://cs.utexas.edu/~mmuaz</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

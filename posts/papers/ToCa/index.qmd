@@ -1,6 +1,6 @@
 ---
 lightbox: auto
-title: "Token Caching for Diffusion Transformer Acceleration [`arxiv:2409.18523`](https://arxiv.org/pdf/2409.18523)"
+title: " ACCELERATING DIFFUSION TRANSFORMERS WITH TOKEN-WISE FEATURE CACHING[`arXiv:2410.05317`](https://arxiv.org/abs/2410.05317)"
 date: 2024-10-16
 date-modified: 2024-10-16
 bibliography: ../../../references.bib
@@ -8,9 +8,9 @@ appendix-cite-as: display
 category: reading-list
 keywords:
   - Diffusion models
-  - Token Caching
-  - Optimization
-  - Model Acceleration
+  - Token-Feature caching
+  - Score-based caching
+  - Model ccceleration
 # favicon: "./assets/favicon.svg"
 # date: 2023-07-31
 # image: "assets/thumbnail.png"

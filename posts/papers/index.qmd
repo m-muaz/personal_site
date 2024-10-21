@@ -1,0 +1,29 @@
+---
+title: "📬 Posts"
+# toc: false
+# page-layout: article
+# format: html
+toc: false
+editor:
+   render-on-save: true
+listing:
+  - id: arxiv-reading-list
+    table-striped: true
+    sort: "date desc"
+    filter-ui: true
+    sort-ui: true
+    type: table
+    table-hover: true
+    fields: [title, date]
+    date-format: iso
+    # field-display-names: false
+    contents:
+      - "../../posts/papers/**/index.qmd"
+      - "!../../posts/papers/ToCa/*.qmd"
+---
+## 🚀 Reading List - `arXiv` papers 
+
+:::{#listing-posts}
+:::
+
+

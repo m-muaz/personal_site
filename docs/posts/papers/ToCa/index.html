@@ -8,9 +8,9 @@
 
 <meta name="author" content="Muhammad Muaz">
 <meta name="dcterms.date" content="2024-10-16">
-<meta name="keywords" content="Diffusion models, Token Caching, Optimization, Model Acceleration">
+<meta name="keywords" content="Diffusion models, Token-Feature caching, Score-based caching, Model ccceleration">
 
-<title>Muhammad Muaz - Token Caching for Diffusion Transformer Acceleration arxiv:2409.18523</title>
+<title>Muhammad Muaz - ACCELERATING DIFFUSION TRANSFORMERS WITH TOKEN-WISE FEATURE CACHINGarXiv:2410.05317</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -164,7 +164,7 @@ window.Quarto = {
 <meta name="twitter:site" content="@its_muazizzm">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="citation_title" content="Personal Website">
-<meta name="citation_keywords" content="Diffusion models,Token Caching,Optimization,Model Acceleration">
+<meta name="citation_keywords" content="Diffusion models,Token-Feature caching,Score-based caching,Model ccceleration">
 <meta name="citation_author" content="Muhammad Muaz">
 <meta name="citation_publication_date" content="2024-10-16">
 <meta name="citation_cover_date" content="2024-10-16">
@@ -267,7 +267,7 @@ window.Quarto = {
   <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">📑 Bibliography</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/m-muaz/personal_site/blob/main/posts/papers/token_cache_2409_18523/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/m-muaz/personal_site/edit/main/posts/papers/token_cache_2409_18523/index.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/m-muaz/personal_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/m-muaz/personal_site/blob/main/posts/papers/ToCa/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/m-muaz/personal_site/edit/main/posts/papers/ToCa/index.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/m-muaz/personal_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
@@ -277,7 +277,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">Token Caching for Diffusion Transformer Acceleration <a href="https://arxiv.org/pdf/2409.18523"><code>arxiv:2409.18523</code></a></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source" data-quarto-source-url="https://github.com/m-muaz/personal_site/blob/main/posts/papers/token_cache_2409_18523/index.qmd"><i class="bi"></i></button></div></div>
+<div class="quarto-title-block"><div><h1 class="title">ACCELERATING DIFFUSION TRANSFORMERS WITH TOKEN-WISE FEATURE CACHING<a href="https://arxiv.org/abs/2410.05317"><code>arXiv:2410.05317</code></a></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source" data-quarto-source-url="https://github.com/m-muaz/personal_site/blob/main/posts/papers/ToCa/index.qmd"><i class="bi"></i></button></div></div>
 </div>
 
 
@@ -311,7 +311,7 @@ window.Quarto = {
 <div>
   <div class="keywords">
     <div class="block-title">Keywords</div>
-    <p>Diffusion models, Token Caching, Optimization, Model Acceleration</p>
+    <p>Diffusion models, Token-Feature caching, Score-based caching, Model ccceleration</p>
   </div>
 </div>
 
@@ -363,7 +363,7 @@ window.Quarto = {
 <div id="fig-token-cache" class="r-stretch quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-token-cache-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="./assets/token-cache.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1"><img src="./assets/token-cache.png" class="r-stretch img-fluid figure-img"></a>
+<a href="./assets/token-cache.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1"><img src="./assets/token-cache.png" class="r-stretch img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-token-cache-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Overview of TokenCache
@@ -406,7 +406,7 @@ Figure&nbsp;1: Overview of TokenCache
 <div id="fig-cache-pred" class="r-stretch quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-cache-pred-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="./assets/cache-predictor.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2"><img src="./assets/cache-predictor.png" class="r-stretch img-fluid figure-img"></a>
+<a href="./assets/cache-predictor.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2"><img src="./assets/cache-predictor.png" class="r-stretch img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cache-pred-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2: Overview of Cache Predictor
@@ -1107,13 +1107,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </a>
   </li>  
 </ul>
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/m-muaz/personal_site/blob/main/posts/papers/token_cache_2409_18523/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/m-muaz/personal_site/edit/main/posts/papers/token_cache_2409_18523/index.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/m-muaz/personal_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/m-muaz/personal_site/blob/main/posts/papers/ToCa/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/m-muaz/personal_site/edit/main/posts/papers/ToCa/index.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/m-muaz/personal_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p><a href="https://cs.utexas.edu/~mmuaz">cs.utexas.edu/~mmuaz</a></p>
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","loop":false,"openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false,"closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

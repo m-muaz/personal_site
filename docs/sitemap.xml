@@ -2,11 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.cs.utexas.edu/~mmuaz/posts/papers/token_cache_2409_18523/index.html</loc>
-    <lastmod>2024-10-17T23:04:50.364Z</lastmod>
+    <lastmod>2024-10-21T08:41:45.275Z</lastmod>
   </url>
   <url>
     <loc>https://www.cs.utexas.edu/~mmuaz/posts/papers/token_cache_2409_18523/slides.html</loc>
-    <lastmod>2024-10-17T23:04:50.364Z</lastmod>
+    <lastmod>2024-10-21T08:41:45.275Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cs.utexas.edu/~mmuaz/posts/papers/ToCa/index.html</loc>
+    <lastmod>2024-10-21T08:52:47.677Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cs.utexas.edu/~mmuaz/posts/papers/ToCa/slides.html</loc>
+    <lastmod>2024-10-21T08:52:47.677Z</lastmod>
   </url>
   <url>
     <loc>https://www.cs.utexas.edu/~mmuaz/index.html</loc>
@@ -14,6 +22,10 @@
   </url>
   <url>
     <loc>https://www.cs.utexas.edu/~mmuaz/posts/index.html</loc>
-    <lastmod>2024-10-17T22:02:40.440Z</lastmod>
+    <lastmod>2024-10-21T08:05:00.156Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cs.utexas.edu/~mmuaz/posts/papers/index.html</loc>
+    <lastmod>2024-10-21T21:30:41.432Z</lastmod>
   </url>
 </urlset>
