@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.cs.utexas.edu/~mmuaz/posts/papers/token_cache_2409_18523/index.html</loc>
+    <lastmod>2024-10-17T23:04:50.364Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cs.utexas.edu/~mmuaz/posts/papers/token_cache_2409_18523/slides.html</loc>
+    <lastmod>2024-10-17T23:04:50.364Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.cs.utexas.edu/~mmuaz/index.html</loc>
-    <lastmod>2024-05-29T21:39:39.284Z</lastmod>
+    <lastmod>2024-10-17T22:22:08.423Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cs.utexas.edu/~mmuaz/posts/index.html</loc>
+    <lastmod>2024-10-17T22:02:40.440Z</lastmod>
   </url>
 </urlset>

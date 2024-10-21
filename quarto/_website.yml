@@ -36,23 +36,12 @@ website:
     #       - text: New Issue
     #         url: https://github.com/saforem2/personal_site/issues/new/choose
     left:
-      - text: "🪧 Posts"
+      - text: "📢 Posts"
         menu:
-          # - text: "📬 All Posts"
-          #   href: "./qmd/posts.qmd"
-          # - text: "📸 <code>flash-attn</code> on Sunspot"
-          #   href: "./qmd/flash-attn-sunspot/index.qmd"
-          - text: "💅 How to Make Dope Slides by Sam Foreman"
-            href: qmd/dope-slides/index.qmd
-          # - text: "🍋 Distributed Training with `ezpz`"
-          #   href: qmd/ezpz/ezpz.qmd
-          # - text: "🚂 Loooooooong Sequence Lengths"
-          #   href: qmd/dsblog.qmd
-          - text: "🏎️ `Megatron-DeepSpeed` + Intel XPU"
-            href: qmd/aurora-gpt/megatron-ds-intel.qmd
-        # menu:
-        #   - text: "All Posts"
-        #     url: "./qmd/posts.qmd"
+        - text: "All Posts"
+          href: "./posts/index.qmd"
+        - text: "TokenCache `arXiv:2409.18523`"
+          href: "./posts/papers/token_cache_2409_18523/index.qmd"
         #   - text: "How to Make Dope Slides"
         #     url: ../qmd/dope-slides/index.qmd
         #   - text: "Talks"
@@ -63,6 +52,18 @@ website:
         #     url: ../qmd/dsblog.qmd
         #   - text: "Megatron DeepSpeed on `xpu`"
         #     url: ../qmd/aurora-gpt/megatron-ds-intel.qmd
+      - text: "🎨 Dope Slides"
+        menu:
+          # - text: "📬 All Posts"
+          #   href: "./qmd/posts.qmd"
+          # - text: "📸 <code>flash-attn</code> on Sunspot"
+          #   href: "./qmd/flash-attn-sunspot/index.qmd"
+          - text: "💅 How to Make Dope Slides by Sam Foreman"
+            href: "https://samforeman.me/posts/dope-slides/"
+          # - text: "🍋 Distributed Training with `ezpz`"
+          #   href: qmd/ezpz/ezpz.qmd
+          # - text: "🚂 Loooooooong Sequence Lengths"
+          #   href: qmd/dsblog.qmd
 
       # - text: "📚 Projects"
       #   url: "./qmd/projects.qmd"

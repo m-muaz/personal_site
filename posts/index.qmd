@@ -1,0 +1,43 @@
+---
+title: "📬 Posts"
+# toc: false
+# page-layout: article
+# format: html
+toc: false
+editor:
+   render-on-save: true
+# page-layout: full
+# metadata_files:
+#   - ./posts.yml
+# listing: posts.yml
+# listing:
+#   sort: "date desc"
+#   id: listing-posts
+#   filter-ui: false
+#   type: table
+#   contents: "./posts.yml"
+# format:
+#   html:
+#     page-layout: full
+listing:
+  - id: listing-posts
+    table-striped: true
+    sort: "date desc"
+    filter-ui: false
+    sort-ui: false
+    type: table
+    table-hover: true
+    fields: [title, date]
+    date-format: iso
+    # field-display-names: false
+    contents:
+      - "../posts/**/index.qmd"
+      - "!../posts/papers/template/index.qmd"
+      - "!../posts/papers/multi-file*/index.qmd"
+---
+## 🚀 New Stuff 🗞️
+
+:::{#listing-posts}
+:::
+
+

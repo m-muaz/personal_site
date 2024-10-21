@@ -1,0 +1,18 @@
+# listing:
+id: listing-posts
+feed: true
+type: table
+# fields:
+#   - date
+#   - title
+#   # - image
+filter-ui: false
+sort-ui: false
+sort: "date desc"
+contents:
+  - "../posts/**/index.qmd"
+  - "!../posts/index.qmd"
+  - "!../posts/l2hmc-qcd/index.qmd"
+  - "!../posts/l2hmc-qcd/l2hmc/index.qmd"
+  - "!../posts/jupyter/index.qmd"
+

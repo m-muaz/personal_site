@@ -1,16 +1,58 @@
 [
   {
+    "objectID": "posts/papers/token_cache_2409_18523/index.html#tokencache",
+    "href": "posts/papers/token_cache_2409_18523/index.html#tokencache",
+    "title": "Token Caching for Diffusion Transformer Acceleration arxiv:2409.18523",
+    "section": "TokenCache",
+    "text": "TokenCache\n\n\n\nUse a small learnable network g_{θ} dubbed Cache Predictor Lou et al. (2024) to predict the importance of the tokens w^{t}_{l} = g_{θ}(l, t) \\in \\mathbf{R}^{n}, and prune the tokens based on their relative importance.\nHow to learn g_{θ}?\n\nInstead of predicing binary importance [0,1], use interpolation to “superpose” pruned and non-pruned token states\nInterpolated states are gerenated via: \\hat{z}^{t}_{l+1} = z^{t}_{l} + \\hat{f}_{l}(z^{t}_{l})\n\n\\hat{f}(z^{t}_{l}) = \\textcolor{#800080}{w^{t}_{l} ⦿ f_{l}(z^{t}_{l})} + \\textcolor{#008080}{(1 - w^{t}_{l}) ⦿ f_{l}(z^{t+1}_{l})}    where diffusion transformer contains total number of L network blocks, with a total of T inference timesteps and z^{t}_{l} \\in \\mathbf{R}^{n \\times d} denotes input to block f_{l} at timestep t\n\n\n\n\n\n\n\n🔍 Optimization Objective\n\n\n\n\nℒ_{\\text{mse}} = 𝔼_{t, z^{t}_{L+1}, \\hat{z}^{t}_{L+1}} [‖ z^{t}_{L+1} - \\hat{z}^{t}_{L+1}‖^{2}_{2}]"
+  },
+  {
+    "objectID": "posts/papers/token_cache_2409_18523/index.html#cache-predictor-visualized",
+    "href": "posts/papers/token_cache_2409_18523/index.html#cache-predictor-visualized",
+    "title": "Token Caching for Diffusion Transformer Acceleration arxiv:2409.18523",
+    "section": "Cache Predictor (Visualized)",
+    "text": "Cache Predictor (Visualized)\n\n\n\n\n\n\nFigure 2: Overview of Cache Predictor"
+  },
+  {
+    "objectID": "posts/papers/token_cache_2409_18523/index.html#bibliography",
+    "href": "posts/papers/token_cache_2409_18523/index.html#bibliography",
+    "title": "Token Caching for Diffusion Transformer Acceleration arxiv:2409.18523",
+    "section": "📑 Bibliography",
+    "text": "📑 Bibliography\n\n\nLou, Jinming, Wenyang Luo, Yufan Liu, Bing Li, Xinmiao Ding, Weiming Hu, Jiajiong Cao, Yuming Li, and Chenguang Ma. 2024. “Token Caching for Diffusion Transformer Acceleration.” https://arxiv.org/abs/2409.18523.\n\n\n\n\n\nFigure 1: Overview of TokenCache\nFigure 2: Overview of Cache Predictor"
+  },
+  {
+    "objectID": "posts/papers/token_cache_2409_18523/slides.html#tokencache",
+    "href": "posts/papers/token_cache_2409_18523/slides.html#tokencache",
+    "title": "Token Caching for Diffusion Transformer Acceleration arxiv:2409.18523",
+    "section": "TokenCache",
+    "text": "TokenCache\n\n\n\nUse a small learnable network g_{θ} dubbed Cache Predictor Lou et al. (2024) to predict the importance of the tokens w^{t}_{l} = g_{θ}(l, t) \\in \\mathbf{R}^{n}, and prune the tokens based on their relative importance.\nHow to learn g_{θ}?\n\nInstead of predicing binary importance [0,1], use interpolation to “superpose” pruned and non-pruned token states\nInterpolated states are gerenated via: \\hat{z}^{t}_{l+1} = z^{t}_{l} + \\hat{f}_{l}(z^{t}_{l})\n\n\\hat{f}(z^{t}_{l}) = \\textcolor{#800080}{w^{t}_{l} ⦿ f_{l}(z^{t}_{l})} + \\textcolor{#008080}{(1 - w^{t}_{l}) ⦿ f_{l}(z^{t+1}_{l})}    where diffusion transformer contains total number of L network blocks, with a total of T inference timesteps and z^{t}_{l} \\in \\mathbf{R}^{n \\times d} denotes input to block f_{l} at timestep t\n\n\n\n\n\n🔍 Optimization Objective\n\n\n\nℒ_{\\text{mse}} = 𝔼_{t, z^{t}_{L+1}, \\hat{z}^{t}_{L+1}} [‖ z^{t}_{L+1} - \\hat{z}^{t}_{L+1}‖^{2}_{2}]"
+  },
+  {
+    "objectID": "posts/papers/token_cache_2409_18523/slides.html#cache-predictor-visualized",
+    "href": "posts/papers/token_cache_2409_18523/slides.html#cache-predictor-visualized",
+    "title": "Token Caching for Diffusion Transformer Acceleration arxiv:2409.18523",
+    "section": "Cache Predictor (Visualized)",
+    "text": "Cache Predictor (Visualized)\n\n\nFigure 2: Overview of Cache Predictor"
+  },
+  {
+    "objectID": "posts/papers/token_cache_2409_18523/slides.html#bibliography",
+    "href": "posts/papers/token_cache_2409_18523/slides.html#bibliography",
+    "title": "Token Caching for Diffusion Transformer Acceleration arxiv:2409.18523",
+    "section": "📑 Bibliography",
+    "text": "📑 Bibliography\n\n\nLou, Jinming, Wenyang Luo, Yufan Liu, Bing Li, Xinmiao Ding, Weiming Hu, Jiajiong Cao, Yuming Li, and Chenguang Ma. 2024. “Token Caching for Diffusion Transformer Acceleration.” https://arxiv.org/abs/2409.18523.\n\n\n\n\n\n\n\n\n\nFigure 1: Overview of TokenCache\nFigure 2: Overview of Cache Predictor"
+  },
+  {
     "objectID": "index.html#about-meinspiration",
     "href": "index.html#about-meinspiration",
     "title": "",
     "section": "🧑🏻‍💻 About Me1",
-    "text": "🧑🏻‍💻 About Me1\n\n💻 currently a computer science graduate student @ (UT Austin).\n\n\n\n🚀 generatly interested in application of AI/ML specifically in domains of Generative AI (Diffusion Models), 3D Vision, & Multi-Modality2"
+    "text": "🧑🏻‍💻 About Me1\n\n💻 currently a computer science graduate student @ (UT Austin).\n\n\n\n🚀 generatly interested in application of AI/ML specifically in domains of Generative AI (Diffusion Models), 3D Vision, & Multi-Modality2\n\n\n\n\n\nWebsite inspiration and code base ported from Sam Foreman’s Personal Website. Huge thanks to Sam 🐐!↩︎\nIf this sounds like something you’d be interested in doing, please feel free to reach out to me!↩︎"
   },
   {
-    "objectID": "index.html#footnotes",
-    "href": "index.html#footnotes",
-    "title": "",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nWebsite inspiration and code base ported from Sam Foreman’s Personal Website. Huge thanks to Sam 🐐!↩︎\nIf this sounds like something you’d be interested in doing, please feel free to reach out to me!↩︎"
+    "objectID": "posts/index.html#new-stuff",
+    "href": "posts/index.html#new-stuff",
+    "title": "📬 Posts",
+    "section": "🚀 New Stuff 🗞️",
+    "text": "🚀 New Stuff 🗞️\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nToken Caching for Diffusion Transformer Acceleration arxiv:2409.18523\n\n\n2024-10-16\n\n\n\n\n\nNo matching items"
   }
 ]

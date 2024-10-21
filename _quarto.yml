@@ -19,18 +19,19 @@ citeproc: true
 #   - lightbox
 # lightbox: auto
 project:
-  render:
-    # - '**/**/*.qmd'
-    - index.qmd
-    - qmd/drop-*/*.qmd
-    - qmd/megatron*/*.qmd
-    # - qmd/blog/*.qmd
-    # - qmd/ezpz/*.qmd
-    # - qmd/aurora-gpt/megatron-ds-intel.qmd
   type: website
   output-dir: "docs"
   preview:
-    port: 4209
+    port: 9090
+  render:
+    # - '**/**/*.qmd'
+    - "index.qmd"
+    - "./qmd/papers/token-*/*.qmd"
+    - "!posts/dope-*/*.qmd"
+    - "posts/**/*.qmd"
+    # - qmd/drop-*/*.qmd
+    # - qmd/megatron*/*.qmd
+    # - qmd/blog/*.qmd
 author:
   name: "Muhammad Muaz"
   url: https://cs.utexas.edu/~mmuaz
